@@ -35,10 +35,10 @@
 		grid-template-areas: 
 			". icon ."
 			"detail detail detail"
-			". . .";
+			"detail detail detail";
 		align-content: center;
 		justify-content: center;
-		margin: 7rem auto 4rem auto;
+		margin: 14rem auto 4rem auto;
 		max-width: 900px;
 	}
 
