@@ -1,0 +1,29 @@
+<script>
+	export let width = '200px';
+	export let height = '200px';
+
+	export let color = '#000000';
+
+	let style = `width: ${width}; height: ${height}`;
+</script>
+
+<style>
+	div {
+		display: inline-block;
+		margin: 0 .3rem;
+	}
+</style>
+
+<div {style}>
+	<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="100%"
+	 height="100%" viewBox="0 0 24 24" enable-background="new 0 0 24 24" xml:space="preserve">
+		<g id="Filled_Icons">
+			<path fill={color} d="M12,0C5.383,0,0,5.383,0,12s5.383,12,12,12s12-5.383,12-12S18.617,0,12,0z M7.5,15.5c-1.657,0-3-1.343-3-3
+				c0-1.656,1.343-3,3-3c1.656,0,3,1.344,3,3C10.5,14.157,9.156,15.5,7.5,15.5z M16.5,15.5c-1.657,0-3-1.343-3-3c0-1.656,1.343-3,3-3
+				c1.656,0,3,1.344,3,3C19.5,14.157,18.156,15.5,16.5,15.5z"/>
+		</g>
+		<g id="Frames-24px">
+			<rect fill="none" width="24" height="24"/>
+		</g>
+	</svg>
+</div>

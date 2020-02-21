@@ -1,0 +1,130 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+input,
+textarea,
+[contenteditable] {
+    -webkit-user-select: text;
+    user-select: text;
+}
+
+:root {
+	--light-gray: #E5E5E5;
+	--gray: #C8C8C8;
+	--dark-gray: #514F4F;
+	--white: #FAFAFA;
+	--black: #000000;
+	--gradient: linear-gradient(180deg, #FAFAFA 12.72%, #E5E5E5 86.98%);
+}
+
+::selection {
+    background: var(--light-gray);
+}
+
+html, body {
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+@font-face {
+	font-family: "Lato";
+	src: url("./Lato-Regular.ttf");
+}
+
+@font-face {
+	font-family: "Lato Black";
+	src: url("./Lato-Black.ttf");
+}
+
+body {
+	box-sizing: border-box;
+	font-family: "Lato";
+	background: var(--white);
+	-webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-overflow-scrolling: touch;
+}
+
+h1 {
+	font-family: "Lato Black";
+	font-size: 1.7rem;
+}
+
+h3 {
+	font-size: 1.5rem;
+	font-weight: 400;
+}
+
+p {
+	font-size: 1.2rem;
+	line-height: 2rem;
+}
+
+ul {
+	list-style: none;
+	margin: 0 auto;
+	max-width: 600px;
+}
+
+li {
+	font-size: 1.2rem;
+	margin: 1.5rem 0;
+	text-align: right;
+}
+
+button {
+	cursor: pointer;
+	font-size: 1.2rem;
+	outline: none;
+}
+
+button:disabled {
+	opacity: .7;
+	cursor: not-allowed;
+}
+
+.brand-button {
+	color: var(--black);
+	background: var(--gray);
+	box-shadow: 1px 2px 1px var(--dark-gray);
+	border-radius: .2rem;
+	background: none;
+	outline: none;
+	cursor: pointer;
+	padding: .5rem 1rem;
+	margin: 0 .5rem;
+	min-width: 5rem;
+	-moz-appearance: none;
+}
+
+.brand-button:active {
+	box-shadow: none;
+}
+
+.brand-button:hover {
+	box-shadow: 1px 2px 1px var(--black);
+}
+
+.simple-button {
+	color: var(--dark-gray);
+	margin: 0 1rem;
+	background: none;
+	border: none;
+	outline: none;
+	font-size: 1.2rem;
+}
+
+a {
+	text-decoration: none;
+}
+
+.simple-button:hover {
+	color: var(--black);
+}
+
+.tag {
+	border-bottom: .2rem solid var(--gray);
+}
