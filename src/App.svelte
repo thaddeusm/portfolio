@@ -42,7 +42,7 @@
 			display: none;
 		}
 
-		header > a > img {
+		header > button > img {
 			height: 10rem;
 			display: block;
 			margin: 2rem auto;
@@ -79,7 +79,7 @@
 			align-self: flex-end;
 		}
 
-		header > a > img {
+		header > button > img {
 			width: 80%;
 			display: block;
 			margin: 2rem auto;
