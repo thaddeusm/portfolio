@@ -25,6 +25,8 @@
 		return tags;
 	}
 
+	window.scrollTo(0, 0);
+
 	onMount(() => {
 		technologyTags = getTags('technology');
 		educationTags = getTags('education');
