@@ -143,7 +143,7 @@
 		</h1>
 	</header>
 	<main>
-		<Router {routes} />
+		<Router {routes} on:routeLoaded={() => {window.scrollTo(0, 0)}} />
 	</main>
 	<footer>
 		<a href="https://github.com/thaddeusm" target="_blank" class="simple-button">
