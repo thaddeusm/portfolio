@@ -18,7 +18,7 @@
 	$: if (location_value == '/') {
 		loc = 'home';
 	} else if (location_value.includes('/')) {
-		loc = location_value.split('/').join('');
+		loc = location_value.split('/')[2];
 	}
 
 	function routeBack() {
