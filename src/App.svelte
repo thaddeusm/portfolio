@@ -1,7 +1,7 @@
 <script>
 	import { routes } from './routes.js';
 	import Router from 'svelte-spa-router';
-	import { location, pop } from 'svelte-spa-router';
+	import { location, pop, push } from 'svelte-spa-router';
 
 	import Back from './icons/Back.svelte';
 	import Github from './icons/Github.svelte';
@@ -42,7 +42,7 @@
 			display: none;
 		}
 
-		header > img {
+		header > a > img {
 			height: 10rem;
 			display: block;
 			margin: 2rem auto;
@@ -79,7 +79,7 @@
 			align-self: flex-end;
 		}
 
-		header > img {
+		header > a > img {
 			width: 80%;
 			display: block;
 			margin: 2rem auto;
@@ -135,7 +135,9 @@
 		{/if}
 	</aside>
 	<header class={$location !== '/' ? 'abbreviated' : ''}>
-		<img src="/thaddeus.png" alt="Thaddeus McCleary">
+		<button class="simple-button" on:click={() => {push('/')}}>
+			<img src="/thaddeus.png" alt="Thaddeus McCleary">
+		</button>
 		<h1>
 			My name is Thaddeus McCleary.
 		</h1>

@@ -37,12 +37,12 @@
 		</a>
 	{/if}
 	{#if project.urls.repo !== ''}
-		<a class="brand-button" target="_blank" href={project.urls.main} style={backgroundColor}>
+		<a class="brand-button" target="_blank" href={project.urls.repo} style={backgroundColor}>
 			repo
 		</a>
 	{/if}
 	{#if project.urls.figma !== ''}
-		<a class="brand-button" target="_blank" href={project.urls.main} style={backgroundColor}>
+		<a class="brand-button" target="_blank" href={project.urls.figma} style={backgroundColor}>
 			mockups
 		</a>
 	{/if}
