@@ -16,7 +16,9 @@
 					"Svelte",
 					"GraphQL",
 					"Posgres",
-					"Harusa"
+					"Harusa",
+					"state management",
+					"mobile-first web design"
 				],
 				"education": [
 					"computational linguistics",
@@ -51,9 +53,9 @@
 					"Vue JS",
 					"Electron JS",
 					"SheetJS",
-					"Vuex",
+					"state management",
 					"NeDB",
-					"offline-first"
+					"offline-first architecture"
 				],
 				"education": [
 					"classroom management",
