@@ -47,7 +47,7 @@
 	{#if params.category == 'education'}
 		I develop software for 
 	{:else}
-		I have worked with 
+		I have used 
 	{/if}
 	{params.tag.split('%20').join(' ')}.
 </h3>
