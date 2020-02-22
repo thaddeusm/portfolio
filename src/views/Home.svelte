@@ -39,7 +39,7 @@
 	}
 
 	ul {
-		margin-bottom: 6rem;
+		margin-bottom: 7rem;
 	}
 </style>
 
