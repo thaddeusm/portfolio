@@ -12,12 +12,6 @@
 </script>
 
 <style>
-	@media screen and (max-width: 800px) {
-		.container {
-			
-		}
-	}
-
 	@media screen and (min-width: 801px) {
 		.container {
 			border-radius: .2rem;
