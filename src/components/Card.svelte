@@ -65,7 +65,7 @@
 
 	.tagline-area {
 		grid-area: tagline;
-		margin: 3rem auto 1rem auto;
+		margin: 2rem auto 1rem auto;
 	}
 
 	.link-area {
@@ -130,6 +130,9 @@
 			{/if}
 		</div>
 		<div class="tagline-area">
+			<h3>
+				{project.name}
+			</h3>
 			<p>
 				{project.tagline}
 			</p>
