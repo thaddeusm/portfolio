@@ -10,7 +10,7 @@
 <style>
 	div {
 		display: inline-block;
-		margin: 0 .3rem;
+		margin: .3rem;
 	}
 </style>
 

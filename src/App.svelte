@@ -5,7 +5,7 @@
 
 	import Back from './icons/Back.svelte';
 	import Github from './icons/Github.svelte';
-	import Flickr from './icons/Flickr.svelte';
+	import Figma from './icons/Figma.svelte';
 
 	let location_value;
 
@@ -29,7 +29,7 @@
 <style>
 	@media screen and (max-width: 800px) {
 		.container {
-			grid-template-rows: auto auto 1fr 15%;
+			grid-template-rows: 5% auto 1fr 15%;
 			grid-template-columns: 1fr;
 			grid-template-areas: 
 				"aside"
@@ -42,7 +42,7 @@
 			display: none;
 		}
 
-		header > button > img {
+		img {
 			height: 10rem;
 			display: block;
 			margin: 2rem auto;
@@ -79,7 +79,7 @@
 			align-self: flex-end;
 		}
 
-		header > button > img {
+		img {
 			width: 80%;
 			display: block;
 			margin: 2rem auto;
@@ -135,9 +135,7 @@
 		{/if}
 	</aside>
 	<header class={$location !== '/' ? 'abbreviated' : ''}>
-		<button class="simple-button" on:click={() => {push('/')}}>
-			<img src="/thaddeus.png" alt="Thaddeus McCleary">
-		</button>
+		<img src="/thaddeus.png" alt="Thaddeus McCleary">
 		<h1>
 			My name is Thaddeus McCleary.
 		</h1>
@@ -152,8 +150,8 @@
 		<a href="/resume.pdf" target="_blank" class="simple-button">
 			resume
 		</a>
-		<a href="https://flickr.com/photos/teachermc/" target="_blank" class="simple-button">
-			<Flickr width={'1.5rem'} height={'1.5rem'} />
+		<a href="https://www.figma.com/file/dilN7BoMfOA2SQ8xMtRuhg/Portfolio?node-id=0%3A1/" target="_blank" class="simple-button">
+			<Figma width={'1.5rem'} height={'1.5rem'} />
 		</a>
 	</footer>
 </div>

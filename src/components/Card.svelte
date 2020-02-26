@@ -3,6 +3,7 @@
 
 	import Seatsmart from './../icons/Seatsmart.svelte';
 	import WritingToolkit from './../icons/WritingToolkit.svelte';
+	import MU from './../icons/MU.svelte';
 
 	export let project;
 	export let category = null;
@@ -12,7 +13,7 @@
 </script>
 
 <style>
-	@media screen and (min-width: 801px) {
+	@media screen and (min-width: 1300px) {
 		.container {
 			border-radius: .2rem;
 		}
@@ -33,7 +34,7 @@
 		align-content: center;
 		justify-content: center;
 		margin: 14rem auto 4rem auto;
-		max-width: 900px;
+		max-width: 850px;
 	}
 
 	.container {
@@ -76,11 +77,11 @@
 	.detail-area {
 		grid-area: detail;
 		margin: 1rem auto;
-		padding: 2rem;
+		padding: 1rem;
 	}
 
 	h3 {
-		margin: 1rem auto;
+		margin: 1rem auto 2rem auto;
 	}
 
 	.detail-area > p {
@@ -92,13 +93,17 @@
 
 {#if large}
 	<div class="large-container" style={backgroundColor}>
-		<div class="icon-area">
-			{#if project.icon == "Seatsmart"}
-				<Seatsmart width={'5.5rem'} height={'5.5rem'} />
-			{:else if project.icon == "WritingToolkit"}
-				<WritingToolkit width={'5.5rem'} height={'5.5rem'} />
-			{/if}
-		</div>
+		{#if project.icon !== ''}
+			<div class="icon-area">
+				{#if project.icon == "Seatsmart"}
+					<Seatsmart width={'5.5rem'} height={'5.5rem'} />
+				{:else if project.icon == "WritingToolkit"}
+					<WritingToolkit width={'5.5rem'} height={'5.5rem'} />
+				{:else if project.icon == "MU"}
+					<MU width={'5.5rem'} height={'5.5rem'} />
+				{/if}
+			</div>
+		{/if}
 		<div class="detail-area">
 			<h3>
 				Background
@@ -118,17 +123,46 @@
 			<p>
 				{project.description.reflection}
 			</p>
+			<h3>{#if project.icon !== 'MU'}Related {/if}Learning Technologies and Design goals</h3>
+			{#each project['LTDGoals'] as goal}
+				{#if goal == 1}
+					<p>
+						<i>
+							To provide students with experiences to develop theory-grounded and research-based competencies for the innovative, aesthetic, effective and sustainable design/development and management of technologies for learning opportunities and systems.
+						</i>
+						<a href="https://sislt.missouri.edu/lt/learning-technologies-design/" target="_blank" class="simple-button">read more</a>
+					</p>
+				{:else if goal == 2}
+					<p>
+						<i>
+							To provide students with experiences to develop skills in data collection, analysis and evaluation for reflecting on and applying to the design/development of learning opportunities and systems.
+						</i>
+						<a href="https://sislt.missouri.edu/lt/learning-technologies-design/" target="_blank" class="simple-button">read more</a>
+					</p>
+				{:else}
+					<p>
+						<i>
+							To provide students with experiences to become socially responsible, reflective/sensitive on the interaction of technologies & society and act ethically in response to current and future challenges of emerging technologies for learning.
+						</i>
+						<a href="https://sislt.missouri.edu/lt/learning-technologies-design/" target="_blank" class="simple-button">read more</a>
+					</p>
+				{/if}
+			{/each}
 		</div>
 	</div>
 {:else}
 	<div class="container">
-		<div class="icon-area">
-			{#if project.icon == "Seatsmart"}
-				<Seatsmart width={'5.5rem'} height={'5.5rem'} />
-			{:else if project.icon == "WritingToolkit"}
-				<WritingToolkit width={'5.5rem'} height={'5.5rem'} />
-			{/if}
-		</div>
+		{#if project.icon !== ''}
+			<div class="icon-area">
+				{#if project.icon == "Seatsmart"}
+					<Seatsmart width={'5.5rem'} height={'5.5rem'} />
+				{:else if project.icon == "WritingToolkit"}
+					<WritingToolkit width={'5.5rem'} height={'5.5rem'} />
+				{:else if project.icon == "MU"}
+					<MU width={'5.5rem'} height={'5.5rem'} />
+				{/if}
+			</div>
+		{/if}
 		<div class="tagline-area">
 			<h3>
 				{project.name}

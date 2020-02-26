@@ -15,8 +15,6 @@
 					"Node JS",
 					"Svelte",
 					"GraphQL",
-					"Posgres",
-					"Harusa",
 					"state management",
 					"mobile-first web design"
 				],
@@ -52,7 +50,6 @@
 					"Node JS",
 					"Vue JS",
 					"Electron JS",
-					"SheetJS",
 					"state management",
 					"NeDB",
 					"offline-first architecture"
@@ -75,5 +72,29 @@
 			"LTDGoals": [1, 3],
 			"color": "#FEE7A7"
 		}
-	]
+	],
+	"education": [{
+		"name": "Learning Technologies and Design",
+		"date": "2017-present",
+			"tagline": "designing and developing educational technology",
+			"description": {
+				"background": "The School of Information Sciences and Learning Technologies at the University of Missouri offers an Educational Specialist degree program in Learning Technologies and Design (formerly Learning Systems Design and Development) to prepare students to design, develop, improve, and evaluate software for learning.",
+				"details": "Course content includes programming skill development (JavaScript), accessibility best practices, instructional design methodology, project management strategies, among other subjects. Some of the projects in this portfolio were developed within or inspired by this coursework. The program requires 30 graduate credit hours with this portfolio serving as the summative assessment. ",
+				"reflection": "I entered the program in hopes of connecting my professional background in language education to my interest in software development. Together with supplemental studies in modern web development, this Educational Specialist program has provided me the theoretical foundation and best practices to design and develop quality educational software. I acquire technical skills through iterations of software design and development rather than explicit (traditional) learning. I am confident that my ongoing projects will continue to contribute to my growth as a software developer."
+			},
+			"tags": {
+				"technology": [
+				],
+				"education": [
+				]
+			},
+			"icon": "MU",
+			"urls": {
+				"main": "https://sislt.missouri.edu/lt/learning-technologies-design/",
+				"repo": "",
+				"figma": ""
+			},
+			"LTDGoals": [1, 2, 3],
+			"color": "#F2DCA5"
+	}]
 }
