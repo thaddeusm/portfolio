@@ -19,7 +19,7 @@
 	}
 
 	.project-links {
-		margin-bottom: 4rem;
+		margin-bottom: 6rem;
 	}
 </style>
 
