@@ -14,6 +14,7 @@
 	});
 
 	let loc = '';
+	let main;
 
 	$: if (location_value == '/') {
 		loc = 'home';
@@ -23,6 +24,12 @@
 
 	function routeBack() {
 		pop();
+	}
+
+	function scrollTop() {
+		window.scrollTo(0, 0);
+		console.log(main.scrollTop);
+		main.scrollTop = 0;
 	}
 </script>
 
@@ -72,7 +79,8 @@
 		}
 
 		main {
-			overflow: auto;
+			overflow-y: scroll;
+			scroll-behavior: smooth;
 		}
 
 		header {
@@ -140,8 +148,8 @@
 			My name is Thaddeus McCleary.
 		</h1>
 	</header>
-	<main>
-		<Router {routes} on:routeLoaded={() => {window.scrollTo(0, 0)}} />
+	<main bind:this={main}>
+		<Router {routes} on:routeLoaded={scrollTop} />
 	</main>
 	<footer>
 		<a href="https://github.com/thaddeusm" target="_blank" class="simple-button">
