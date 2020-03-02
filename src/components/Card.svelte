@@ -4,6 +4,7 @@
 	import Seatsmart from './../icons/Seatsmart.svelte';
 	import WritingToolkit from './../icons/WritingToolkit.svelte';
 	import MU from './../icons/MU.svelte';
+	import Gist from './../icons/Gist.svelte';
 
 	export let project;
 	export let category = null;
@@ -101,6 +102,8 @@
 					<WritingToolkit width={'5.5rem'} height={'5.5rem'} />
 				{:else if project.icon == "MU"}
 					<MU width={'5.5rem'} height={'5.5rem'} />
+				{:else if project.icon == "Gist"}
+					<Gist width={'5.5rem'} height={'5.5rem'} />
 				{/if}
 			</div>
 		{/if}
@@ -160,6 +163,8 @@
 					<WritingToolkit width={'5.5rem'} height={'5.5rem'} />
 				{:else if project.icon == "MU"}
 					<MU width={'5.5rem'} height={'5.5rem'} />
+				{:else if project.icon == "Gist"}
+					<Gist width={'5.5rem'} height={'5.5rem'} />
 				{/if}
 			</div>
 		{/if}

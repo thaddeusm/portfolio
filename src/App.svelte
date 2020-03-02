@@ -28,7 +28,6 @@
 
 	function scrollTop() {
 		window.scrollTo(0, 0);
-		console.log(main.scrollTop);
 		main.scrollTop = 0;
 	}
 </script>
