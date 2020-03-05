@@ -16,10 +16,9 @@
 					"Svelte",
 					"GraphQL",
 					"state management",
-					"mobile-first web design"
+					"mobile-first design"
 				],
 				"education": [
-					"computational linguistics",
 					"writing instruction",
 					"English for Academic Purposes",
 					"test preparation",
@@ -28,12 +27,40 @@
 			},
 			"icon": "WritingToolkit",
 			"urls": {
-				"main": "https://writingtoolkit.online/",
-				"repo": "",
+				"main": "https://writingtoolkit.online/#/beta?coupon=383aBoL2",
 				"figma": "https://www.figma.com/file/r2KId8V6ijnIXxXul4eqML/Writing-Process-App"
 			},
 			"LTDGoals": [1, 2],
 			"color": "#D3DFEA"
+		},
+		{
+			"name": "IELTS Practice",
+			"date": "2019",
+			"tagline": "helps students prepare for the IELTS exam",
+			"description": {
+				"background": "The IELTS is an international English language exam widely used to assess a candidate's ability to use English in a business or academic environment. On the exam's speaking section, examinees are asked to prepare and deliver a short impromptu speech with specific time constraints.",
+				"details": "This mobile-first app combines several basic functionalities necessary for test preparation. First, the app provides a random prompt modeled after sample questions provided by the IELTS website. The app also integrates timer functionality in the form of a dynamically generated window border.",
+				"reflection": "When preparing for an exam, students often overlook time constraints, which are often the cause of text anxiety. By integrating this functionality, this solution is more effective than simply reviewing example test questions."
+			},
+			"tags": {
+				"technology": [
+					"JavaScript",
+					"Svelte",
+					"mobile-first design"
+				],
+				"education": [
+					"English for Academic Purposes",
+					"test preparation",
+					"career readiness"
+				]
+			},
+			"icon": "IELTS",
+			"urls": {
+				"main": "https://ielts-cards.seatsmart.tech",
+				"repo": "https://github.com/thaddeusm/ielts-cards"
+			},
+			"LTDGoals": [1, 3],
+			"color": "#E5E5E5"
 		},
 		{
 			"name": "Seatsmart",
@@ -56,10 +83,8 @@
 				],
 				"education": [
 					"classroom management",
-					"grading",
-					"feedback",
-					"engagement",
-					"motivation",
+					"formative assessment",
+					"student engagement",
 					"class participation"
 				]
 			},
@@ -71,6 +96,35 @@
 			},
 			"LTDGoals": [1, 3],
 			"color": "#FEE7A7"
+		},
+		{
+			"name": "TOEIC Photo",
+			"date": "2019",
+			"tagline": "helps students prepare for the TOEIC exam",
+			"description": {
+				"background": "The TOEIC is an international English language exam widely used to assess a candidate's ability to use English in a business environment. On the exam's speaking section, examinees are asked to describe a random photo, demonstrating their range and depth of vocabulary.",
+				"details": "This mobile-first app combines several basic functionalities necessary for test preparation. First, the app provides a random photo with subjects modeled after example provided by the ETS website. The app also integrates timer functionality. Further, the app includes a gamified version of the activity with a process similar to the parlor game Taboo.",
+				"reflection": "When preparing for an exam, students often overlook time constraints, which are often the cause of text anxiety. By integrating this functionality, this solution is more effective than simply reviewing example photos from the test website."
+			},
+			"tags": {
+				"technology": [
+					"JavaScript",
+					"Svelte",
+					"mobile-first design"
+				],
+				"education": [
+					"English for Academic Purposes",
+					"test preparation",
+					"career readiness"
+				]
+			},
+			"icon": "TOEIC",
+			"urls": {
+				"main": "https://toeic-photo.seatsmart.tech",
+				"repo": "https://github.com/thaddeusm/toeic-photo"
+			},
+			"LTDGoals": [1, 3],
+			"color": "#E5E5E5"
 		},
 		{
 			"name": "Seatsmart Remote",
@@ -91,10 +145,8 @@
 				],
 				"education": [
 					"classroom management",
-					"grading",
-					"feedback",
-					"engagement",
-					"motivation",
+					"formative assessment",
+					"student engagement",
 					"class participation"
 				]
 			},
@@ -124,7 +176,6 @@
 					"mobile-first design"
 				],
 				"education": [
-					"computational linguistics",
 					"writing instruction",
 					"English for Academic Purposes",
 					"test preparation",
@@ -157,9 +208,8 @@
 				],
 				"education": [
 					"classroom management",
-					"grading",
-					"feedback",
-					"engagement"
+					"formative assessment",
+					"student engagement"
 				]
 			},
 			"icon": "Seatsmart",
@@ -169,6 +219,94 @@
 			},
 			"LTDGoals": [1, 2, 3],
 			"color": "#FAEDB2"
+		},
+		{
+			"name": "Seatsmart Activities",
+			"date": "2019-present",
+			"tagline": "adds realtime formative assessment activities to Seatsmart",
+			"description": {
+				"background": "Existing popular realtime education services are blocked in China. This mobile-first web app allows students to connect with each other and their instructor on their personal devices.",
+				"details": "When Internet access is available, instructors can launch realtime formative assessment activities with their students. Data is encrypted during transport and this information is not stored in any cloud database.",
+				"reflection": "Since colleagues teach groups as large as 120 students, it can be difficult to foster meaningful interactions in the classroom. Simple activities such as surveys or resource sharing can be nearly impossible to do in analog, especially when anonymity is important. Instructors use Seatsmart Activities to make their class sessions more engaging and to gather feedback from students."
+			},
+			"tags": {
+				"technology": [
+					"JavaScript",
+					"Vue JS",
+					"Socket.io",
+					"state management",
+					"mobile-first design"
+				],
+				"education": [
+					"classroom management",
+					"formative assessment",
+					"student engagement",
+					"class participation"
+				]
+			},
+			"icon": "Activities",
+			"urls": {
+				"main": "https://seatsmart.tech/",
+				"repo": "https://github.com/thaddeusm/seatsmart-activities"
+			},
+			"LTDGoals": [1, 3],
+			"color": "#FEE7A7"
+		},
+		{
+			"name": "BEC Vantage Practice",
+			"date": "2019",
+			"tagline": "helps students prepare for an English language exam",
+			"description": {
+				"background": "The BEC Vantage is an international English language exam widely used to assess a candidate's ability to use English in a business environment. On the exam's speaking section, examinees are asked to collaborate with a stranger to discuss solutions to a common business problem.",
+				"details": "This mobile-first app combines several basic functionalities necessary for test preparation. First, the app provides a random collaboration prompt modeled after sample questions provided by Cambridge English. The app also integrates timer functionality in the form of a dynamically generated window border. Two or three students can work together around the same device.",
+				"reflection": "When preparing for an exam, students often overlook time constraints, which are often the cause of text anxiety. By integrating this functionality, this solution is more effective than simply reviewing example test questions."
+			},
+			"tags": {
+				"technology": [
+					"JavaScript",
+					"Svelte",
+					"mobile-first design"
+				],
+				"education": [
+					"English for Academic Purposes",
+					"test preparation",
+					"career readiness"
+				]
+			},
+			"icon": "BEC",
+			"urls": {
+				"main": "https://bec-vantage-collaboration.seatsmart.tech",
+				"repo": "https://github.com/thaddeusm/bec-vantage-collaboration"
+			},
+			"LTDGoals": [1, 3],
+			"color": "#E5E5E5"
+		},
+		{
+			"name": "Chronology",
+			"date": "2018",
+			"tagline": "a timeline creator to support language acquisition",
+			"description": {
+				"background": "Many Indo-European languages include the concept of verb tenses to mark time. Acquiring these verb forms requires a much longer period of exposure to the language. This application helps a language learner understand chronologies as communicated in the target language.",
+				"details": "This application was created in the context of an Interaction Design course at the University of Missouri. It features a minimalistic interface to reduce distraction so that the users can continue to focus on what they hear. It was created in plain JavaScript in a MVC (OOP) pattern.",
+				"reflection": "Though it made sense to me at the time, the interface relies too heavily on ambiguous icons to communicate meaning. Though users would be able to negotiate for clearer understanding in the moment, the use of higher-fidelity graphics (photos) would likely provide a better experience."
+			},
+			"tags": {
+				"technology": [
+					"JavaScript",
+					"mobile-first design"
+				],
+				"education": [
+					"English for Academic Purposes",
+					"student engagement"
+				]
+			},
+			"icon": "Chronology",
+			"urls": {
+				"main": "https://chronology.glitch.me",
+				"repo": "https://glitch.com/edit/#!/chronology"
+			},
+			"LTDGoals": [1, 2, 3],
+			"color": "#E5E5E5"
 		}
 	],
 	"education": [{

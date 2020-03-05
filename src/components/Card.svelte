@@ -5,6 +5,11 @@
 	import WritingToolkit from './../icons/WritingToolkit.svelte';
 	import MU from './../icons/MU.svelte';
 	import Gist from './../icons/Gist.svelte';
+	import Activities from './../icons/Activities.svelte';
+	import BEC from './../icons/BEC.svelte';
+	import IELTS from './../icons/IELTS.svelte';
+	import TOEIC from './../icons/TOEIC.svelte';
+	import Chronology from './../icons/Chronology.svelte';
 
 	export let project;
 	export let category = null;
@@ -104,6 +109,16 @@
 					<MU width={'5.5rem'} height={'5.5rem'} />
 				{:else if project.icon == "Gist"}
 					<Gist width={'5.5rem'} height={'5.5rem'} />
+				{:else if project.icon == "Activities"}
+					<Activities width={'5.5rem'} height={'5.5rem'} />
+				{:else if project.icon == "BEC"}
+					<BEC width={'5.5rem'} height={'5.5rem'} />
+				{:else if project.icon == "IELTS"}
+					<IELTS width={'5.5rem'} height={'5.5rem'} />
+				{:else if project.icon == "TOEIC"}
+					<TOEIC width={'5.5rem'} height={'5.5rem'} />
+				{:else if project.icon == "Chronology"}
+					<Chronology width={'5.5rem'} height={'5.5rem'} />
 				{/if}
 			</div>
 		{/if}
@@ -165,6 +180,16 @@
 					<MU width={'5.5rem'} height={'5.5rem'} />
 				{:else if project.icon == "Gist"}
 					<Gist width={'5.5rem'} height={'5.5rem'} />
+				{:else if project.icon == "Activities"}
+					<Activities width={'5.5rem'} height={'5.5rem'} />
+				{:else if project.icon == "BEC"}
+					<BEC width={'5.5rem'} height={'5.5rem'} />
+				{:else if project.icon == "IELTS"}
+					<IELTS width={'5.5rem'} height={'5.5rem'} />
+				{:else if project.icon == "TOEIC"}
+					<TOEIC width={'5.5rem'} height={'5.5rem'} />
+				{:else if project.icon == "Chronology"}
+					<Chronology width={'5.5rem'} height={'5.5rem'} />
 				{/if}
 			</div>
 		{/if}
