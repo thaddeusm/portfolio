@@ -139,6 +139,36 @@
 			},
 			"LTDGoals": [1, 2, 3],
 			"color": "#FAEDB2"
+		},
+		{
+			"name": "Seatsmart Remote Server",
+			"date": "2018-present",
+			"tagline": "powers Seatsmart's realtime features",
+			"description": {
+				"background": "This realtime server powers remote functionality within the desktop application Seatsmart.",
+				"details": "When Internet access is available, instructors can use the Remote feature to access basic features from a mobile device. Students can also connect on their mobile devices for realtime activities. Data is encrypted during transport and this information is not stored in any cloud database.",
+				"reflection": "Seatsmart was originally planned as an offline application due to the perceived instability of Internet services in (mainland) China. After a tentative trial of realtime features using this server, the application quickly proved its reliability. After introducing remote functionality, colleagues began suggesting other realtime features to make their classroom more interactive. Since existing realtime services are blocked in China, Seatsmart has grown to fill in the gaps."
+			},
+			"tags": {
+				"technology": [
+					"Node JS",
+					"Socket.io",
+					"state management"
+				],
+				"education": [
+					"classroom management",
+					"grading",
+					"feedback",
+					"engagement"
+				]
+			},
+			"icon": "Seatsmart",
+			"urls": {
+				"main": "https://seatsmart.tech/",
+				"repo": "https://github.com/thaddeusm/seatsmart-remote-server"
+			},
+			"LTDGoals": [1, 2, 3],
+			"color": "#FAEDB2"
 		}
 	],
 	"education": [{

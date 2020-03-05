@@ -19,7 +19,7 @@
 	}
 
 	.project-links {
-		margin-bottom: 6rem;
+		margin: 4rem;
 	}
 </style>
 
@@ -29,21 +29,21 @@
 <h3>
 	{project.tagline}
 </h3>
-<Card large={true} {project} />
 <section class="project-links">
-	{#if project.urls.main !== ''}
+	{#if project.urls.main && project.urls.main !== ''}
 		<a class="brand-button" target="_blank" href={project.urls.main} style={backgroundColor}>
 			website
 		</a>
 	{/if}
-	{#if project.urls.repo !== ''}
+	{#if project.urls.repo && project.urls.repo !== ''}
 		<a class="brand-button" target="_blank" href={project.urls.repo} style={backgroundColor}>
 			repo
 		</a>
 	{/if}
-	{#if project.urls.figma !== ''}
+	{#if project.urls.figma && project.urls.figma !== ''}
 		<a class="brand-button" target="_blank" href={project.urls.figma} style={backgroundColor}>
 			mockups
 		</a>
 	{/if}
 </section>
+<Card large={true} {project} />
