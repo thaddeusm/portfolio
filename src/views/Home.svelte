@@ -85,7 +85,7 @@
 	<li><a class="simple-button tag" href="https://flickr.com/photos/teachermc/albums/72157627128243426" target="_blank">South Korea</a></li>
 </ul>
 <h3 class="lower-heading">
-	I will earn my Educational Specialist degree soon
+	I recently earned an Educational Specialist degree!
 </h3>
 {#if MU}
 	<Card large={true} project={MU} />

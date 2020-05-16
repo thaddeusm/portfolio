@@ -311,12 +311,12 @@
 	],
 	"education": [{
 		"name": "Learning Technologies and Design",
-		"date": "2017-present",
+		"date": "2017-2020",
 			"tagline": "designing and developing educational technology",
 			"description": {
 				"background": "The School of Information Sciences and Learning Technologies at the University of Missouri offers an Educational Specialist degree program in Learning Technologies and Design (formerly Learning Systems Design and Development) to prepare students to design, develop, improve, and evaluate software for learning.",
 				"details": "Course content includes programming skill development (JavaScript), accessibility best practices, instructional design methodology, project management strategies, among other subjects. Some of the projects in this portfolio were developed within or inspired by this coursework. The program requires 30 graduate credit hours with this portfolio serving as the summative assessment. ",
-				"reflection": "I entered the program in hopes of connecting my professional background in language education to my interest in software development. Together with supplemental studies in modern web development, this Educational Specialist program has provided me the theoretical foundation and best practices to design and develop quality educational software. I acquire technical skills through iterations of software design and development rather than explicit (traditional) learning. I am confident that my ongoing projects will continue to contribute to my growth as a software developer."
+				"reflection": "I entered the program in hopes of connecting my professional background in language education to my interest in software development. Together with supplemental studies in modern web development, this Educational Specialist program provided me the theoretical foundation and best practices to design and develop quality educational software. I acquire technical skills through iterations of software design and development rather than explicit (traditional) learning. I am confident that my ongoing projects will continue to contribute to my growth as a software developer."
 			},
 			"tags": {
 				"technology": [
