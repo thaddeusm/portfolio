@@ -10,6 +10,7 @@
 	import IELTS from './../icons/IELTS.svelte';
 	import TOEIC from './../icons/TOEIC.svelte';
 	import Chronology from './../icons/Chronology.svelte';
+	import Robomuse from './../icons/Robomuse.svelte';
 
 	export let project;
 	export let category = null;
@@ -119,6 +120,8 @@
 					<TOEIC width={'5.5rem'} height={'5.5rem'} />
 				{:else if project.icon == "Chronology"}
 					<Chronology width={'5.5rem'} height={'5.5rem'} />
+				{:else if project.icon == "Robomuse"}
+					<Robomuse width={'5.5rem'} height={'5.5rem'} />
 				{/if}
 			</div>
 		{/if}
@@ -190,6 +193,8 @@
 					<TOEIC width={'5.5rem'} height={'5.5rem'} />
 				{:else if project.icon == "Chronology"}
 					<Chronology width={'5.5rem'} height={'5.5rem'} />
+				{:else if project.icon == "Robomuse"}
+					<Robomuse width={'5.5rem'} height={'5.5rem'} />
 				{/if}
 			</div>
 		{/if}

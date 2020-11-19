@@ -34,6 +34,35 @@
 			"color": "#D3DFEA"
 		},
 		{
+			"name": "Robomuse",
+			"date": "2020",
+			"tagline": "AI-powered vocabulary building",
+			"description": {
+				"background": "For English language learners in particular, the breadth of vocabulary expected in creative writing can be daunting. It is difficult to avoid overusing familiar words.",
+				"details": "Robomuse is a light user interface to access word association features from Datamuse, an AI-based service that offers English language word suggestions. Suggestions supported by Robomuse include rhyming words, adjectives, nouns, and single-word substitutions for phrases.",
+				"reflection": "While limited in terms of scope, the application can be used by native and non-native English language writers on a variety of device form factors."
+			},
+			"tags": {
+				"technology": [
+					"JavaScript",
+					"Node JS",
+					"Svelte",
+					"mobile-first design"
+				],
+				"education": [
+					"writing instruction",
+					"student engagement"
+				]
+			},
+			"icon": "Robomuse",
+			"urls": {
+				"main": "https://robomuse.thaddeus.education/",
+				"figma": "https://www.figma.com/file/dRDnmjhzwoHa1cMNsgFMtv/Robomuse"
+			},
+			"LTDGoals": [1, 2],
+			"color": "#98F1F5"
+		},
+		{
 			"name": "IELTS Practice",
 			"date": "2019",
 			"tagline": "helps students prepare for the IELTS exam",
