@@ -21,6 +21,14 @@
 	.project-links {
 		margin: 4rem;
 	}
+
+	@media screen and (max-width: 500px) {
+		a {
+			display: block;
+			width: 5rem;
+			margin: 2rem auto;
+		}
+	}
 </style>
 
 <h1>

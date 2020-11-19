@@ -23,6 +23,7 @@
 	}
 
 	function routeBack() {
+		console.log('back')
 		pop();
 	}
 
