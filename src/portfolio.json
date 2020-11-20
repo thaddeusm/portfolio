@@ -57,6 +57,7 @@
 			"icon": "Robomuse",
 			"urls": {
 				"main": "https://robomuse.thaddeus.education/",
+				"repo": "https://github.com/thaddeusm/robomuse",
 				"figma": "https://www.figma.com/file/dRDnmjhzwoHa1cMNsgFMtv/Robomuse"
 			},
 			"LTDGoals": [1, 2],

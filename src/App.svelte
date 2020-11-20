@@ -23,7 +23,6 @@
 	}
 
 	function routeBack() {
-		console.log('back')
 		pop();
 	}
 
@@ -56,7 +55,7 @@
 		}
 
 		aside {
-			padding: 2rem;
+			padding: 1.5rem 0;
 		}
 
 		main {
