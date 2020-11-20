@@ -151,21 +151,21 @@
 						<i>
 							To provide students with experiences to develop theory-grounded and research-based competencies for the innovative, aesthetic, effective and sustainable design/development and management of technologies for learning opportunities and systems.
 						</i>
-						<a href="https://sislt.missouri.edu/lt/learning-technologies-design/" target="_blank" class="simple-button">read more</a>
+						<a href="https://education.missouri.edu/degree/learning-and-design-technologies-edsp/" target="_blank" class="simple-button">read more</a>
 					</p>
 				{:else if goal == 2}
 					<p>
 						<i>
 							To provide students with experiences to develop skills in data collection, analysis and evaluation for reflecting on and applying to the design/development of learning opportunities and systems.
 						</i>
-						<a href="https://sislt.missouri.edu/lt/learning-technologies-design/" target="_blank" class="simple-button">read more</a>
+						<a href="https://education.missouri.edu/degree/learning-and-design-technologies-edsp/" target="_blank" class="simple-button">read more</a>
 					</p>
 				{:else}
 					<p>
 						<i>
 							To provide students with experiences to become socially responsible, reflective/sensitive on the interaction of technologies & society and act ethically in response to current and future challenges of emerging technologies for learning.
 						</i>
-						<a href="https://sislt.missouri.edu/lt/learning-technologies-design/" target="_blank" class="simple-button">read more</a>
+						<a href="https://education.missouri.edu/degree/learning-and-design-technologies-edsp/" target="_blank" class="simple-button">read more</a>
 					</p>
 				{/if}
 			{/each}
