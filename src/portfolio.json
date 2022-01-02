@@ -30,7 +30,6 @@
 				"main": "https://writingtoolkit.online/",
 				"figma": "https://www.figma.com/file/r2KId8V6ijnIXxXul4eqML/Writing-Process-App"
 			},
-			"LTDGoals": [1, 2],
 			"color": "#D3DFEA"
 		},
 		{
@@ -60,7 +59,6 @@
 				"repo": "https://github.com/thaddeusm/robomuse",
 				"figma": "https://www.figma.com/file/dRDnmjhzwoHa1cMNsgFMtv/Robomuse"
 			},
-			"LTDGoals": [1, 2],
 			"color": "#98F1F5"
 		},
 		{
@@ -89,7 +87,6 @@
 				"main": "https://ielts-cards.seatsmart.tech",
 				"repo": "https://github.com/thaddeusm/ielts-cards"
 			},
-			"LTDGoals": [1, 3],
 			"color": "#E5E5E5"
 		},
 		{
@@ -124,7 +121,6 @@
 				"repo": "https://github.com/thaddeusm/seatsmart-FHSU",
 				"figma": "https://www.figma.com/file/OxI3WKOFswThYuEfOR6UaV7V/Seatsmart"
 			},
-			"LTDGoals": [1, 3],
 			"color": "#FEE7A7"
 		},
 		{
@@ -153,7 +149,6 @@
 				"main": "https://toeic-photo.seatsmart.tech",
 				"repo": "https://github.com/thaddeusm/toeic-photo"
 			},
-			"LTDGoals": [1, 3],
 			"color": "#E5E5E5"
 		},
 		{
@@ -185,7 +180,6 @@
 				"main": "https://seatsmart.tech/",
 				"repo": "https://github.com/thaddeusm/seatsmart-remote"
 			},
-			"LTDGoals": [1, 3],
 			"color": "#FEE7A7"
 		},
 		{
@@ -218,7 +212,6 @@
 				"repo": "https://github.com/thaddeusm/gist",
 				"figma": "https://www.figma.com/file/sM264mpij4f1y2r7w12kGD/Gist?node-id=0%3A1"
 			},
-			"LTDGoals": [1, 2, 3],
 			"color": "#FAEDB2"
 		},
 		{
@@ -247,7 +240,6 @@
 				"main": "https://seatsmart.tech/",
 				"repo": "https://github.com/thaddeusm/seatsmart-remote-server"
 			},
-			"LTDGoals": [1, 2, 3],
 			"color": "#FAEDB2"
 		},
 		{
@@ -279,7 +271,6 @@
 				"main": "https://seatsmart.tech/",
 				"repo": "https://github.com/thaddeusm/seatsmart-activities"
 			},
-			"LTDGoals": [1, 3],
 			"color": "#FEE7A7"
 		},
 		{
@@ -308,7 +299,6 @@
 				"main": "https://bec-vantage-collaboration.seatsmart.tech",
 				"repo": "https://github.com/thaddeusm/bec-vantage-collaboration"
 			},
-			"LTDGoals": [1, 3],
 			"color": "#E5E5E5"
 		},
 		{
@@ -335,32 +325,37 @@
 				"main": "https://chronology.glitch.me",
 				"repo": "https://glitch.com/edit/#!/chronology"
 			},
-			"LTDGoals": [1, 2, 3],
 			"color": "#E5E5E5"
-		}
-	],
-	"education": [{
-		"name": "Learning Technologies and Design",
-		"date": "2017-2020",
-			"tagline": "designing and developing educational technology",
+		},
+		{
+			"name": "Mixtape",
+			"date": "2021",
+			"tagline": "a mixtape creation interface for Apple Music",
 			"description": {
-				"background": "The School of Information Sciences and Learning Technologies at the University of Missouri offers an Educational Specialist degree program in Learning Technologies and Design (formerly Learning Systems Design and Development) to prepare students to design, develop, improve, and evaluate software for learning.",
-				"details": "Course content includes programming skill development (JavaScript), accessibility best practices, instructional design methodology, project management strategies, among other subjects. Some of the projects in this portfolio were developed within or inspired by this coursework. The program requires 30 graduate credit hours with this portfolio serving as the summative assessment. ",
-				"reflection": "I entered the program in hopes of connecting my professional background in language education to my interest in software development. Together with supplemental studies in modern web development, this Educational Specialist program provided me the theoretical foundation and best practices to design and develop quality educational software. I acquire technical skills through iterations of software design and development rather than explicit (traditional) learning. I am confident that my ongoing projects will continue to contribute to my growth as a software developer."
+				"background": "Modern music players like Apple Music allow you to create playlists, but it can be difficult to share them with others.",
+				"details": "This application uses the mixtape concept to add meta details to a playlist built from the Apple Music library. I challenged myself to limit the project to a frontend interface without any backend data storage. Instead, all details related to the mixtape are stored in query parameters. This delivers the fundamental functionality users expect without requiring registration.",
+				"reflection": "I enjoy playing and listening to music in my daily life, so this project is a labor of love. It is challenging to rely so much on a single external API, however. In fact, I decided to use a beta version of MusicKit JS as version 1 was unstable. The long term viability of this application entirely depends on Apple's vision."
 			},
 			"tags": {
 				"technology": [
+					"JavaScript",
+					"Node JS",
+					"Svelte",
+					"state management",
+					"mobile-first design"
 				],
 				"education": [
+					"writing instruction",
+					"student engagement"
 				]
 			},
-			"icon": "MU",
+			"icon": "Mixtape",
 			"urls": {
-				"main": "https://education.missouri.edu/degree/learning-and-design-technologies-edsp/",
-				"repo": "",
-				"figma": ""
+				"main": "https://mixtape.thaddeus.education",
+				"repo": "https://github.com/thaddeusm/mixtape",
+				"figma": "https://www.figma.com/file/frBMRG5tSgvMtDmjt1ofSxps/Mixtape-Player"
 			},
-			"LTDGoals": [1, 2, 3],
-			"color": "#F2DCA5"
-	}]
+			"color": "#E5E5E5"
+		}
+	]
 }

@@ -11,6 +11,7 @@
 	import TOEIC from './../icons/TOEIC.svelte';
 	import Chronology from './../icons/Chronology.svelte';
 	import Robomuse from './../icons/Robomuse.svelte';
+	import Mixtape from './../icons/Mixtape.svelte';
 
 	export let project;
 	export let category = null;
@@ -122,6 +123,8 @@
 					<Chronology width={'5.5rem'} height={'5.5rem'} />
 				{:else if project.icon == "Robomuse"}
 					<Robomuse width={'5.5rem'} height={'5.5rem'} />
+				{:else if project.icon == "Mixtape"}
+					<Mixtape width={'5.5rem'} height={'5.5rem'} />
 				{/if}
 			</div>
 		{/if}
@@ -170,6 +173,8 @@
 					<Chronology width={'5.5rem'} height={'5.5rem'} />
 				{:else if project.icon == "Robomuse"}
 					<Robomuse width={'5.5rem'} height={'5.5rem'} />
+				{:else if project.icon == "Mixtape"}
+					<Mixtape width={'5.5rem'} height={'5.5rem'} />
 				{/if}
 			</div>
 		{/if}
