@@ -34,7 +34,7 @@
 		display: grid;
 		grid-template-columns: 1fr 6rem 1fr;
 		grid-template-rows: auto 1fr 30%;
-		grid-template-areas: 
+		grid-template-areas:
 			". icon ."
 			"detail detail detail"
 			"detail detail detail";
@@ -50,7 +50,7 @@
 		display: grid;
 		grid-template-columns: 1fr 6rem 1fr;
 		grid-template-rows: auto 1fr 30%;
-		grid-template-areas: 
+		grid-template-areas:
 			". icon ."
 			"tagline tagline tagline"
 			". link .";
@@ -144,31 +144,6 @@
 			<p>
 				{project.description.reflection}
 			</p>
-			<h3>{#if project.icon !== 'MU'}Related {/if}Learning Technologies and Design goals</h3>
-			{#each project['LTDGoals'] as goal}
-				{#if goal == 1}
-					<p>
-						<i>
-							To provide students with experiences to develop theory-grounded and research-based competencies for the innovative, aesthetic, effective and sustainable design/development and management of technologies for learning opportunities and systems.
-						</i>
-						<a href="https://education.missouri.edu/degree/learning-and-design-technologies-edsp/" target="_blank" class="simple-button">read more</a>
-					</p>
-				{:else if goal == 2}
-					<p>
-						<i>
-							To provide students with experiences to develop skills in data collection, analysis and evaluation for reflecting on and applying to the design/development of learning opportunities and systems.
-						</i>
-						<a href="https://education.missouri.edu/degree/learning-and-design-technologies-edsp/" target="_blank" class="simple-button">read more</a>
-					</p>
-				{:else}
-					<p>
-						<i>
-							To provide students with experiences to become socially responsible, reflective/sensitive on the interaction of technologies & society and act ethically in response to current and future challenges of emerging technologies for learning.
-						</i>
-						<a href="https://education.missouri.edu/degree/learning-and-design-technologies-edsp/" target="_blank" class="simple-button">read more</a>
-					</p>
-				{/if}
-			{/each}
 		</div>
 	</div>
 {:else}

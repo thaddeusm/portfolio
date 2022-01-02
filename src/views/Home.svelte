@@ -7,9 +7,6 @@
 
 	let technologyTags = [];
 	let educationTags = [];
-	let MU = portfolio.education[0];
-
-	$: backgroundColor = `background: ${MU.color}`;
 
 	function getTags(type) {
 		let projects = portfolio.projects;
@@ -75,35 +72,3 @@
 		</li>
 	{/each}
 </ul>
-<h3 class="lower-heading">
-	I have also worked as a TESOL professional in 
-</h3>
-<ul>
-	<li><a class="simple-button tag" href="https://fhsu.edu/english/faculty-and-staff/index" target="_blank">China</a></li>
-	<li><a class="simple-button tag" href="https://www.youtube.com/watch?v=Dvg2CwTfoAA" target="_blank">Ukraine</a></li>
-	<li><a class="simple-button tag" href="https://www.ozarkliteracy.org" target="_blank">Arkansas, USA</a></li>
-	<li><a class="simple-button tag" href="https://flickr.com/photos/teachermc/albums/72157627128243426" target="_blank">South Korea</a></li>
-</ul>
-<h3 class="lower-heading">
-	I recently earned an Educational Specialist degree!
-</h3>
-{#if MU}
-	<Card large={true} project={MU} />
-{/if}
-<section class="project-links">
-	{#if MU.urls.main !== ''}
-		<a class="brand-button" target="_blank" href={MU.urls.main} style={backgroundColor}>
-			website
-		</a>
-	{/if}
-	{#if MU.urls.repo !== ''}
-		<a class="brand-button" target="_blank" href={MU.urls.repo} style={backgroundColor}>
-			repo
-		</a>
-	{/if}
-	{#if MU.urls.figma !== ''}
-		<a class="brand-button" target="_blank" href={MU.urls.figma} style={backgroundColor}>
-			mockups
-		</a>
-	{/if}
-</section>
