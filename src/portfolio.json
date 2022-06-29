@@ -84,7 +84,7 @@
 			},
 			"icon": "IELTS",
 			"urls": {
-				"main": "https://ielts-cards.seatsmart.tech",
+				"main": "https://ielts-cards.thaddeus.education",
 				"repo": "https://github.com/thaddeusm/ielts-cards"
 			},
 			"color": "#E5E5E5"
@@ -117,7 +117,7 @@
 			},
 			"icon": "Seatsmart",
 			"urls": {
-				"main": "https://seatsmart.tech/",
+				"main": "https://seatsmart.thaddeus.education/",
 				"repo": "https://github.com/thaddeusm/seatsmart-FHSU",
 				"figma": "https://www.figma.com/file/OxI3WKOFswThYuEfOR6UaV7V/Seatsmart"
 			},
@@ -146,7 +146,7 @@
 			},
 			"icon": "TOEIC",
 			"urls": {
-				"main": "https://toeic-photo.seatsmart.tech",
+				"main": "https://toeic-photo.thaddeus.education",
 				"repo": "https://github.com/thaddeusm/toeic-photo"
 			},
 			"color": "#E5E5E5"
@@ -177,7 +177,7 @@
 			},
 			"icon": "Seatsmart",
 			"urls": {
-				"main": "https://seatsmart.tech/",
+				"main": "https://seatsmart.thaddeus.education/",
 				"repo": "https://github.com/thaddeusm/seatsmart-remote"
 			},
 			"color": "#FEE7A7"
@@ -237,7 +237,7 @@
 			},
 			"icon": "Seatsmart",
 			"urls": {
-				"main": "https://seatsmart.tech/",
+				"main": "https://seatsmart.thaddeus.education/",
 				"repo": "https://github.com/thaddeusm/seatsmart-remote-server"
 			},
 			"color": "#FAEDB2"
@@ -268,7 +268,7 @@
 			},
 			"icon": "Activities",
 			"urls": {
-				"main": "https://seatsmart.tech/",
+				"main": "https://seatsmart.thaddeus.education/",
 				"repo": "https://github.com/thaddeusm/seatsmart-activities"
 			},
 			"color": "#FEE7A7"
@@ -296,7 +296,7 @@
 			},
 			"icon": "BEC",
 			"urls": {
-				"main": "https://bec-vantage-collaboration.seatsmart.tech",
+				"main": "https://bec-vantage-collaboration.thaddeus.education",
 				"repo": "https://github.com/thaddeusm/bec-vantage-collaboration"
 			},
 			"color": "#E5E5E5"
