@@ -71,7 +71,7 @@ ul {
 
 li {
 	font-size: 1.2rem;
-	margin: 2rem 0;
+	margin: 2rem 1.5rem;
 	text-align: right;
 }
 
@@ -110,7 +110,6 @@ button:disabled {
 
 .simple-button {
 	color: var(--dark-gray);
-	margin: 0 1rem;
 	background: none;
 	border: none;
 	outline: none;

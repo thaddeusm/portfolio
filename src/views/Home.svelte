@@ -46,6 +46,12 @@
 	.project-links {
 		margin-bottom: 6rem;
 	}
+
+	@media screen and (max-width: 800px) {
+		h3 {
+			margin: 0 1.5rem;
+		}
+	}
 </style>
 
 <h3>
@@ -61,7 +67,7 @@
 	{/each}
 </ul>
 <h3 class="lower-heading">
-	I have used technologies such as
+	with technologies such as
 </h3>
 <ul>
 	{#each technologyTags as tag}
