@@ -46,12 +46,6 @@
 	.project-links {
 		margin-bottom: 6rem;
 	}
-
-	@media screen and (max-width: 800px) {
-		h3 {
-			margin: 0 1.5rem;
-		}
-	}
 </style>
 
 <h3>
