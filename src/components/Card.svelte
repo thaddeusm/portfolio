@@ -21,13 +21,17 @@
 </script>
 
 <style>
-	@media screen and (min-width: 1300px) {
-		.container {
+	@media screen and (max-width: 800px) {
+		.container, .large-container {
 			border-radius: .2rem;
+			margin: 7rem -.75rem 4rem -.75rem;
 		}
+	}
 
-		.large-container {
+	@media screen and (min-width: 801px) {
+		.container, .large-container {
 			border-radius: .2rem;
+			margin: 7rem auto 4rem auto;
 		}
 	}
 
@@ -42,7 +46,7 @@
 		align-content: center;
 		justify-content: center;
 		margin: 14rem auto 4rem auto;
-		max-width: 850px;
+		max-width: 750px;
 	}
 
 	.container {
@@ -57,7 +61,7 @@
 			". link .";
 		align-content: center;
 		justify-content: center;
-		margin: 7rem auto 4rem auto;
+		max-width: 750px;
 	}
 
 	.icon-area {

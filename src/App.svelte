@@ -36,12 +36,12 @@
 	@media screen and (max-width: 800px) {
 		.container {
 			grid-template-rows: 5% auto 1fr 15%;
-			grid-template-columns: .75rem 1fr .75rem;
+			grid-template-columns: 1fr;
 			grid-template-areas:
-				". aside ."
-				". header ."
-				". main ."
-				". footer .";
+				"aside"
+				"header"
+				"main"
+				"footer";
 		}
 
 		.abbreviated {
@@ -55,11 +55,11 @@
 		}
 
 		aside {
-			padding: 1.5rem 0;
+			padding: 1.5rem .75rem;
 		}
 
 		main {
-			padding: 4rem 0;
+			padding: 4rem .75rem;
 		}
 	}
 
