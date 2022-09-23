@@ -45,7 +45,6 @@
 			"detail detail detail";
 		align-content: center;
 		justify-content: center;
-		margin: 14rem auto 4rem auto;
 		max-width: 750px;
 	}
 
