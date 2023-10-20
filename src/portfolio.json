@@ -27,7 +27,7 @@
 			},
 			"icon": "WritingToolkit",
 			"urls": {
-				"main": "https://writingtoolkit.thaddeus.education/",
+				"main": "https://contenteditable.vercel.app/",
 				"figma": "https://www.figma.com/file/r2KId8V6ijnIXxXul4eqML/Writing-Process-App"
 			},
 			"color": "#D3DFEA"
@@ -55,7 +55,7 @@
 			},
 			"icon": "Robomuse",
 			"urls": {
-				"main": "https://robomuse.thaddeus.education/",
+				"main": "https://robomuse.vercel.app/",
 				"repo": "https://github.com/thaddeusm/robomuse",
 				"figma": "https://www.figma.com/file/dRDnmjhzwoHa1cMNsgFMtv/Robomuse"
 			},
@@ -84,7 +84,7 @@
 			},
 			"icon": "IELTS",
 			"urls": {
-				"main": "https://ielts-cards.thaddeus.education",
+				"main": "https://ielts-cards.vercel.app/",
 				"repo": "https://github.com/thaddeusm/ielts-cards"
 			},
 			"color": "#E5E5E5"
@@ -117,7 +117,7 @@
 			},
 			"icon": "Seatsmart",
 			"urls": {
-				"main": "https://seatsmart.thaddeus.education/",
+				"main": "https://seatsmart.vercel.app/",
 				"repo": "https://github.com/thaddeusm/seatsmart-FHSU",
 				"figma": "https://www.figma.com/file/OxI3WKOFswThYuEfOR6UaV7V/Seatsmart"
 			},
@@ -146,7 +146,7 @@
 			},
 			"icon": "TOEIC",
 			"urls": {
-				"main": "https://toeic-photo.thaddeus.education",
+				"main": "https://toeic-photo.vercel.app",
 				"repo": "https://github.com/thaddeusm/toeic-photo"
 			},
 			"color": "#E5E5E5"
@@ -177,7 +177,7 @@
 			},
 			"icon": "Seatsmart",
 			"urls": {
-				"main": "https://seatsmart.thaddeus.education/",
+				"main": "https://seatsmart.vercel.app/",
 				"repo": "https://github.com/thaddeusm/seatsmart-remote"
 			},
 			"color": "#FEE7A7"
@@ -237,7 +237,7 @@
 			},
 			"icon": "Seatsmart",
 			"urls": {
-				"main": "https://seatsmart.thaddeus.education/",
+				"main": "https://seatsmart.vercel.app/",
 				"repo": "https://github.com/thaddeusm/seatsmart-remote-server"
 			},
 			"color": "#FAEDB2"
@@ -268,7 +268,7 @@
 			},
 			"icon": "Activities",
 			"urls": {
-				"main": "https://seatsmart.thaddeus.education/",
+				"main": "https://seatsmart.vercel.app/",
 				"repo": "https://github.com/thaddeusm/seatsmart-activities"
 			},
 			"color": "#FEE7A7"
@@ -296,7 +296,7 @@
 			},
 			"icon": "BEC",
 			"urls": {
-				"main": "https://bec-vantage-collaboration.thaddeus.education",
+				"main": "https://bec-vantage-collaboration.vercel.app",
 				"repo": "https://github.com/thaddeusm/bec-vantage-collaboration"
 			},
 			"color": "#E5E5E5"
@@ -351,7 +351,7 @@
 			},
 			"icon": "Mixtape",
 			"urls": {
-				"main": "https://mixtape.thaddeus.education",
+				"main": "https://mixtape-gamma.vercel.app/",
 				"repo": "https://github.com/thaddeusm/mixtape",
 				"figma": "https://www.figma.com/file/frBMRG5tSgvMtDmjt1ofSxps/Mixtape-Player"
 			},
