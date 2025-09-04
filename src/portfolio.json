@@ -13,10 +13,7 @@
 				"technology": [
 					"JavaScript",
 					"Node JS",
-					"Svelte",
-					"GraphQL",
-					"state management",
-					"mobile-first design"
+					"Svelte"
 				],
 				"education": [
 					"writing instruction",
@@ -45,8 +42,7 @@
 				"technology": [
 					"JavaScript",
 					"Node JS",
-					"Svelte",
-					"mobile-first design"
+					"Svelte"
 				],
 				"education": [
 					"writing instruction",
@@ -73,8 +69,7 @@
 			"tags": {
 				"technology": [
 					"JavaScript",
-					"Svelte",
-					"mobile-first design"
+					"Svelte"
 				],
 				"education": [
 					"English for Academic Purposes",
@@ -103,10 +98,7 @@
 					"JavaScript",
 					"Node JS",
 					"Vue JS",
-					"Electron JS",
-					"state management",
-					"NeDB",
-					"offline-first architecture"
+					"Electron JS"
 				],
 				"education": [
 					"classroom management",
@@ -135,8 +127,7 @@
 			"tags": {
 				"technology": [
 					"JavaScript",
-					"Svelte",
-					"mobile-first design"
+					"Svelte"
 				],
 				"education": [
 					"English for Academic Purposes",
@@ -164,9 +155,7 @@
 				"technology": [
 					"JavaScript",
 					"Vue JS",
-					"Socket.io",
-					"state management",
-					"mobile-first design"
+					"Socket.io"
 				],
 				"education": [
 					"classroom management",
@@ -195,9 +184,7 @@
 				"technology": [
 					"JavaScript",
 					"Node JS",
-					"Svelte",
-					"state management",
-					"mobile-first design"
+					"Svelte"
 				],
 				"education": [
 					"writing instruction",
@@ -226,8 +213,7 @@
 			"tags": {
 				"technology": [
 					"Node JS",
-					"Socket.io",
-					"state management"
+					"Socket.io"
 				],
 				"education": [
 					"classroom management",
@@ -255,9 +241,7 @@
 				"technology": [
 					"JavaScript",
 					"Vue JS",
-					"Socket.io",
-					"state management",
-					"mobile-first design"
+					"Socket.io"
 				],
 				"education": [
 					"classroom management",
@@ -285,8 +269,7 @@
 			"tags": {
 				"technology": [
 					"JavaScript",
-					"Svelte",
-					"mobile-first design"
+					"Svelte"
 				],
 				"education": [
 					"English for Academic Purposes",
@@ -312,8 +295,7 @@
 			},
 			"tags": {
 				"technology": [
-					"JavaScript",
-					"mobile-first design"
+					"JavaScript"
 				],
 				"education": [
 					"English for Academic Purposes",
@@ -340,9 +322,7 @@
 				"technology": [
 					"JavaScript",
 					"Node JS",
-					"Svelte",
-					"state management",
-					"mobile-first design"
+					"Svelte"
 				],
 				"education": [
 					"writing instruction",
@@ -356,6 +336,57 @@
 				"figma": "https://www.figma.com/file/frBMRG5tSgvMtDmjt1ofSxps/Mixtape-Player"
 			},
 			"color": "#E5E5E5"
+		},
+		{
+			"name": "English Language Programs",
+			"date": "2025",
+			"tagline": "a marketing website powered by WordPress",
+			"description": {
+				"background": "This site provides details about exchange opportunities for US-based English as a Second Language teachers funded by the U.S. Department of State.",
+				"details": "It was refreshed with a new WordPress theme in 2022, with an atypical file structure (Roots by Bedrock). It features an interactive map powered by MapBox and an AJAX Story post search component. These and other interactive elements are powered by Vue JS.",
+				"reflection": "Though the theme was initially being designed and developed by an outside agency just as I began in the role, I took it over before launch, completing the buildout with interactivity and accessibility improvements."
+			},
+			"tags": {
+				"technology": [
+					"WordPress",
+					"PHP",
+					"Vue JS"
+				],
+				"education": [
+					"career readiness"
+				]
+			},
+			"icon": "ELP",
+			"urls": {
+				"main": "https://www.elprograms.org/"
+			},
+			"color": "#E1EEF4"
+		},
+		{
+			"name": "Community of Practice",
+			"date": "2025",
+			"tagline": "a private online community powered by WordPress",
+			"description": {
+				"background": "This community is exclusively for alumni of English Language Programs, exchange opportunities for US-based English as a Second Language teachers funded by the U.S. Department of State.",
+				"details": "The theme is highly customized with numerous custom post types, taxonomies, and tricky integrations. The most consequential plugin is LearnDash LMS, which allows the organization to host courses inside of the community. This plugin provides limited customization out of the box, however, which requires significant ongoing development work to ensure that it provides a look and feel similar to the rest of the community. The site integrates with Auth0 so users can use the same credentials on two of the organization's web platforms.",
+				"reflection": "WordPress would not have been my platform of choice for an online community. When I inherited this legacy project, non admin users were expected to navigate not only a custom frontend, but also periodically the WordPress admin panel to create and edit posts and manage their comments. One of the more major changes I implemented were frontend views to prevent community members from ever needing to see the admin panel. Now, most newer members likely have no idea that the community is powered by WordPress."
+			},
+			"tags": {
+				"technology": [
+					"WordPress",
+					"PHP",
+					"Vue JS"
+				],
+				"education": [
+					"career readiness",
+					"active participation"
+				]
+			},
+			"icon": "ELP",
+			"urls": {
+				"main": "https://cop.elprograms.org/"
+			},
+			"color": "#E1EEF4"
 		}
 	]
 }

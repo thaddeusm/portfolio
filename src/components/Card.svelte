@@ -12,6 +12,7 @@
 	import Chronology from './../icons/Chronology.svelte';
 	import Robomuse from './../icons/Robomuse.svelte';
 	import Mixtape from './../icons/Mixtape.svelte';
+	import ELP from './../icons/ELP.svelte';
 
 	export let project;
 	export let category = null;
@@ -128,6 +129,8 @@
 					<Robomuse width={'5.5rem'} height={'5.5rem'} />
 				{:else if project.icon == "Mixtape"}
 					<Mixtape width={'5.5rem'} height={'5.5rem'} />
+				{:else if project.icon == "ELP"}
+					<ELP width={'5.5rem'} height={'5.5rem'} />
 				{/if}
 			</div>
 		{/if}
@@ -178,6 +181,8 @@
 					<Robomuse width={'5.5rem'} height={'5.5rem'} />
 				{:else if project.icon == "Mixtape"}
 					<Mixtape width={'5.5rem'} height={'5.5rem'} />
+				{:else if project.icon == "ELP"}
+					<ELP width={'5.5rem'} height={'5.5rem'} />
 				{/if}
 			</div>
 		{/if}
