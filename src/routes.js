@@ -5,8 +5,7 @@ import Detail from './views/Detail.svelte';
 const routes = {
     '/': Home,
     '/query/:category/:tag': Query,
-    '/detail/:category/:index': Detail,
-    // '*': NotFound
+    '/detail/:category/:index': Detail
 };
 
 export {routes};

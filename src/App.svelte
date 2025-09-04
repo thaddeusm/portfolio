@@ -23,7 +23,11 @@
 	}
 
 	function routeBack() {
-		pop();
+		if (window.history.length > 1) {
+			pop();
+		} else {
+			push('/');
+		}
 	}
 
 	function scrollTop() {
