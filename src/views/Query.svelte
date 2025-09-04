@@ -39,10 +39,6 @@
 	});
 </script>
 
-<style>
-	
-</style>
-
 <h3>
 	{#if params.category == 'education'}
 		I develop software for 
