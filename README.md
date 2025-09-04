@@ -1,3 +1,2 @@
 # Portfolio
-## Thaddeus McCleary
-*powered by Svelte*
+a Svelte-powered single page app
