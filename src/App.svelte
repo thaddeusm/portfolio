@@ -90,6 +90,7 @@
 			width: 80%;
 			display: block;
 			margin: 2rem auto;
+
 		}
 	}
 
@@ -119,7 +120,7 @@
 		grid-area: footer;
 		background: var(--gradient);
 		display: grid;
-		grid-template-columns: 1fr 1fr 1fr;
+		grid-template-columns: 1fr 1fr;
 		align-content: center;
 		text-align: center;
 	}
@@ -151,11 +152,8 @@
 		<Router {routes} on:routeLoaded={scrollTop} />
 	</main>
 	<footer>
-		<a href="https://github.com/thaddeusm" target="_blank" class="simple-button">
+		<a href="https://github.com/thaddeusm/portfolio" target="_blank" class="simple-button">
 			<Github width={'1.5rem'} height={'1.5rem'} />
-		</a>
-		<a href="/resume.pdf" target="_blank" class="simple-button">
-			resume
 		</a>
 		<a href="https://www.figma.com/file/dilN7BoMfOA2SQ8xMtRuhg/Portfolio?node-id=0%3A1/" target="_blank" class="simple-button">
 			<Figma width={'1.5rem'} height={'1.5rem'} />
