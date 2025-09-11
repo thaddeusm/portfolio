@@ -79,6 +79,7 @@
 	.tagline-area {
 		grid-area: tagline;
 		margin: 2rem auto 1rem auto;
+		padding: .25rem;
 	}
 
 	.link-area {
