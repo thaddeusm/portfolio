@@ -49,7 +49,7 @@
 </style>
 
 <h3>
-	I develop educational software for
+	I design and develop web applications for
 </h3>
 <ul>
 	{#each educationTags as tag}

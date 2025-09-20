@@ -1,343 +1,6 @@
 {
 	"projects": [
 		{
-			"name": "Writing Toolkit",
-			"date": "2020",
-			"tagline": "a suite of digital English writing tools",
-			"description": {
-				"background": "Composition is often taught explicitly with learners actually completing writing steps independently.  This project embeds common advice in college composition classes implicitly, supporting learners as they write.",
-				"details": "Writing Toolkit is a web application designed to be mobile-first and performant around the globe.  English language learners are the primary target user, which requires the use of a global CDN and a stateless architecture as users are based around the world.  The application helps users manage writing as individual projects, with a variety of support strategies (style feedback, grammar checking, plagiarism detection, etc.) depending on the project template.",
-				"reflection": "The application is the most complete integration of my experiences as an English language instructor and my web development skillset."
-			},
-			"tags": {
-				"technology": [
-					"JavaScript",
-					"Node JS",
-					"Svelte"
-				],
-				"education": [
-					"writing instruction",
-					"English for Academic Purposes",
-					"test preparation",
-					"career readiness"
-				]
-			},
-			"icon": "WritingToolkit",
-			"urls": {
-				"main": "https://contenteditable.vercel.app/",
-				"figma": "https://www.figma.com/file/r2KId8V6ijnIXxXul4eqML/Writing-Process-App"
-			},
-			"color": "#D3DFEA"
-		},
-		{
-			"name": "Robomuse",
-			"date": "2020",
-			"tagline": "AI-powered vocabulary building",
-			"description": {
-				"background": "For English language learners in particular, the breadth of vocabulary expected in creative writing can be daunting. It is difficult to avoid overusing familiar words.",
-				"details": "Robomuse is a light user interface to access word association features from Datamuse, an AI-based service that offers English language word suggestions. Suggestions supported by Robomuse include rhyming words, adjectives, nouns, and single-word substitutions for phrases.",
-				"reflection": "While limited in terms of scope, the application can be used by native and non-native English language writers on a variety of device form factors."
-			},
-			"tags": {
-				"technology": [
-					"JavaScript",
-					"Node JS",
-					"Svelte"
-				],
-				"education": [
-					"writing instruction",
-					"student engagement"
-				]
-			},
-			"icon": "Robomuse",
-			"urls": {
-				"main": "https://robomuse.vercel.app/",
-				"repo": "https://github.com/thaddeusm/robomuse",
-				"figma": "https://www.figma.com/file/dRDnmjhzwoHa1cMNsgFMtv/Robomuse"
-			},
-			"color": "#98F1F5"
-		},
-		{
-			"name": "IELTS Practice",
-			"date": "2019",
-			"tagline": "helps students prepare for the IELTS exam",
-			"description": {
-				"background": "The IELTS is an international English language exam widely used to assess a candidate's ability to use English in a business or academic environment. On the exam's speaking section, examinees are asked to prepare and deliver a short impromptu speech with specific time constraints.",
-				"details": "This mobile-first app combines several basic functionalities necessary for test preparation. First, the app provides a random prompt modeled after sample questions provided by the IELTS website. The app also integrates timer functionality in the form of a dynamically generated window border.",
-				"reflection": "When preparing for an exam, students often overlook time constraints, which are often the cause of text anxiety. By integrating this functionality, this solution is more effective than simply reviewing example test questions."
-			},
-			"tags": {
-				"technology": [
-					"JavaScript",
-					"Svelte"
-				],
-				"education": [
-					"English for Academic Purposes",
-					"test preparation",
-					"career readiness"
-				]
-			},
-			"icon": "IELTS",
-			"urls": {
-				"main": "https://ielts-cards.vercel.app/",
-				"repo": "https://github.com/thaddeusm/ielts-cards"
-			},
-			"color": "#E5E5E5"
-		},
-		{
-			"name": "Seatsmart",
-			"date": "2018-present",
-			"tagline": "adds transparency to classroom participation feedback",
-			"description": {
-				"background": "Seatsmart offers a convenient way to implement classroom participation guidance by the Department of English at Fort Hays State University for courses conducted at campuses in China. \nAt its core, Seatsmart is a simple implementation of instructor classroom management practices that are considered effective for courses conducted at FHSU satellite campuses in China. Paper-based seating charts with spaces for annotation have been in use for some time and are still the preferred choice for many faculty members. Seatsmart offers a digital alternative as a convenience, while striving to add features that are difficult to implement in analog (e.g. trend calculations, randomization, etc.). The choice of colors and typography is meant to fit the university context (adult learners).",
-				"details": "Internet connection stability is a serious concern for faculty. In addition, the application deals with student records related to participation, which should be stored securely. Seatsmart is designed to be offline-first, with all data stored on the user's machine. This storage is transparently located in the default OS documents folder, which is separate from application files. This allows the user to update (replace) the application without impacting partication records. \nWhen Internet access is available, instructors can use the Remote feature to access basic features from a mobile device. They can also engage with students in Activities for realtime formative assessments. Data is encrypted during transport and this information is not stored in any cloud database. This is powered by a realtime server on the backend. \nEvery attempt is made to ensure design and UX consistency for PC and Mac, the operating systems currently used by faculty. However, desktop (larger) screen sizes are given less priority as faculty are provided or rely upon laptop computers. An additional effort has been made to support OSX-specific APIs such as the touchbar, recognizing that faculty members who have chosen to purchase their own computers have sometimes selected more advanced Apple computers with this feature.",
-				"reflection": "As a standalone application, Seatsmart currently includes all planned functionality.  However, due to the public health crisis in China in 2020, face-to-face instruction has been interrupted, which puts this project on hold."
-			},
-			"tags": {
-				"technology": [
-					"JavaScript",
-					"Node JS",
-					"Vue JS",
-					"Electron JS"
-				],
-				"education": [
-					"classroom management",
-					"formative assessment",
-					"student engagement",
-					"active participation"
-				]
-			},
-			"icon": "Seatsmart",
-			"urls": {
-				"main": "https://seatsmart.vercel.app/",
-				"repo": "https://github.com/thaddeusm/seatsmart-FHSU",
-				"figma": "https://www.figma.com/file/OxI3WKOFswThYuEfOR6UaV7V/Seatsmart"
-			},
-			"color": "#FEE7A7"
-		},
-		{
-			"name": "TOEIC Photo",
-			"date": "2019",
-			"tagline": "helps students prepare for the TOEIC exam",
-			"description": {
-				"background": "The TOEIC is an international English language exam widely used to assess a candidate's ability to use English in a business environment. On the exam's speaking section, examinees are asked to describe a random photo, demonstrating their range and depth of vocabulary.",
-				"details": "This mobile-first app combines several basic functionalities necessary for test preparation. First, the app provides a random photo with subjects modeled after example provided by the ETS website. The app also integrates timer functionality. Further, the app includes a gamified version of the activity with a process similar to the parlor game Taboo.",
-				"reflection": "When preparing for an exam, students often overlook time constraints, which are often the cause of text anxiety. By integrating this functionality, this solution is more effective than simply reviewing example photos from the test website."
-			},
-			"tags": {
-				"technology": [
-					"JavaScript",
-					"Svelte"
-				],
-				"education": [
-					"English for Academic Purposes",
-					"test preparation",
-					"career readiness"
-				]
-			},
-			"icon": "TOEIC",
-			"urls": {
-				"main": "https://toeic-photo.vercel.app",
-				"repo": "https://github.com/thaddeusm/toeic-photo"
-			},
-			"color": "#E5E5E5"
-		},
-		{
-			"name": "Seatsmart Remote",
-			"date": "2018-present",
-			"tagline": "extends features of the Seatsmart app to mobile devices",
-			"description": {
-				"background": "This web-based remote UI communicates in realtime with the desktop application Seatsmart powered by Seatsmart Remote Server.",
-				"details": "When Internet access is available, instructors can use the Remote feature to access basic features from a mobile device. Data is encrypted during transport and this information is not stored in any cloud database. ",
-				"reflection": "This application demonstrates how progressive enhancements can serve the needs of many users without risking wider accessibility. While Seatsmart Remote will never replace the original desktop application, it has introduced interactions that have influenced other features, such as Seatsmart Activities."
-			},
-			"tags": {
-				"technology": [
-					"JavaScript",
-					"Vue JS",
-					"Socket.io"
-				],
-				"education": [
-					"classroom management",
-					"formative assessment",
-					"student engagement",
-					"active participation"
-				]
-			},
-			"icon": "Seatsmart",
-			"urls": {
-				"main": "https://seatsmart.vercel.app/",
-				"repo": "https://github.com/thaddeusm/seatsmart-remote"
-			},
-			"color": "#FEE7A7"
-		},
-		{
-			"name": "Gist",
-			"date": "2019",
-			"tagline": "gamifies avoiding plagiarism when writing summaries",
-			"description": {
-				"background": "This game was created with English language learners in mind, who often struggle to use language flexibly and understand standards of academic integrity in Anglophone academia.",
-				"details": "Gist is a text-based game that challenges a player to summarize a short text while avoiding common issues: plagiarism, reliance on close synonyms, and wordiness. As a serious game intended for older learners, Gist focuses on providing formative feedback to learners to encourage reflection and iteration. If successful, the game might help learners build an implicit understanding of academic integrity and best practices regarding paraphrasing.",
-				"reflection": "This project was my first serious attempt to apply basic computional linguistics strategies in order to analyze natural text input. Large portions of the server functions that support Gist have been reused in other projects. Therefore, the project was a true stepping stone to more complex applications."
-			},
-			"tags": {
-				"technology": [
-					"JavaScript",
-					"Node JS",
-					"Svelte"
-				],
-				"education": [
-					"writing instruction",
-					"English for Academic Purposes",
-					"test preparation",
-					"academic integrity"
-				]
-			},
-			"icon": "Gist",
-			"urls": {
-				"main": "https://gist-game.now.sh",
-				"repo": "https://github.com/thaddeusm/gist",
-				"figma": "https://www.figma.com/file/sM264mpij4f1y2r7w12kGD/Gist?node-id=0%3A1"
-			},
-			"color": "#FAEDB2"
-		},
-		{
-			"name": "Seatsmart Remote Server",
-			"date": "2018-present",
-			"tagline": "powers Seatsmart's realtime features",
-			"description": {
-				"background": "This realtime server powers remote functionality within the desktop application Seatsmart.",
-				"details": "When Internet access is available, instructors can use the Remote feature to access basic features from a mobile device. Students can also connect on their mobile devices for realtime activities. Data is encrypted during transport and this information is not stored in any cloud database.",
-				"reflection": "Seatsmart was originally planned as an offline application due to the perceived instability of Internet services in (mainland) China. After a tentative trial of realtime features using this server, the application quickly proved its reliability. After introducing remote functionality, colleagues began suggesting other realtime features to make their classroom more interactive. Since existing realtime services are blocked in China, Seatsmart has grown to fill in the gaps."
-			},
-			"tags": {
-				"technology": [
-					"Node JS",
-					"Socket.io"
-				],
-				"education": [
-					"classroom management",
-					"formative assessment",
-					"student engagement"
-				]
-			},
-			"icon": "Seatsmart",
-			"urls": {
-				"main": "https://seatsmart.vercel.app/",
-				"repo": "https://github.com/thaddeusm/seatsmart-remote-server"
-			},
-			"color": "#FAEDB2"
-		},
-		{
-			"name": "Seatsmart Activities",
-			"date": "2019-present",
-			"tagline": "adds realtime formative assessment activities to Seatsmart",
-			"description": {
-				"background": "Existing popular realtime education services are blocked in China. This mobile-first web app allows students to connect with each other and their instructor on their personal devices.",
-				"details": "When Internet access is available, instructors can launch realtime formative assessment activities with their students. Data is encrypted during transport and this information is not stored in any cloud database.",
-				"reflection": "Since colleagues teach groups as large as 120 students, it can be difficult to foster meaningful interactions in the classroom. Simple activities such as surveys or resource sharing can be nearly impossible to do in analog, especially when anonymity is important. Instructors use Seatsmart Activities to make their class sessions more engaging and to gather feedback from students."
-			},
-			"tags": {
-				"technology": [
-					"JavaScript",
-					"Vue JS",
-					"Socket.io"
-				],
-				"education": [
-					"classroom management",
-					"formative assessment",
-					"student engagement",
-					"active participation"
-				]
-			},
-			"icon": "Activities",
-			"urls": {
-				"main": "https://seatsmart.vercel.app/",
-				"repo": "https://github.com/thaddeusm/seatsmart-activities"
-			},
-			"color": "#FEE7A7"
-		},
-		{
-			"name": "BEC Vantage Practice",
-			"date": "2019",
-			"tagline": "helps students prepare for an English language exam",
-			"description": {
-				"background": "The BEC Vantage is an international English language exam widely used to assess a candidate's ability to use English in a business environment. On the exam's speaking section, examinees are asked to collaborate with a stranger to discuss solutions to a common business problem.",
-				"details": "This mobile-first app combines several basic functionalities necessary for test preparation. First, the app provides a random collaboration prompt modeled after sample questions provided by Cambridge English. The app also integrates timer functionality in the form of a dynamically generated window border. Two or three students can work together around the same device.",
-				"reflection": "When preparing for an exam, students often overlook time constraints, which are often the cause of text anxiety. By integrating this functionality, this solution is more effective than simply reviewing example test questions."
-			},
-			"tags": {
-				"technology": [
-					"JavaScript",
-					"Svelte"
-				],
-				"education": [
-					"English for Academic Purposes",
-					"test preparation",
-					"career readiness"
-				]
-			},
-			"icon": "BEC",
-			"urls": {
-				"main": "https://bec-vantage-collaboration.vercel.app",
-				"repo": "https://github.com/thaddeusm/bec-vantage-collaboration"
-			},
-			"color": "#E5E5E5"
-		},
-		{
-			"name": "Chronology",
-			"date": "2018",
-			"tagline": "a timeline creator to support language acquisition",
-			"description": {
-				"background": "Many Indo-European languages include the concept of verb tenses to mark time. Acquiring these verb forms requires a much longer period of exposure to the language. This application helps a language learner understand chronologies as communicated in the target language.",
-				"details": "This application was created in the context of an Interaction Design course at the University of Missouri. It features a minimalistic interface to reduce distraction so that the users can continue to focus on what they hear. It was created in plain JavaScript in a MVC (OOP) pattern.",
-				"reflection": "Though it made sense to me at the time, the interface relies too heavily on ambiguous icons to communicate meaning. Though users would be able to negotiate for clearer understanding in the moment, the use of higher-fidelity graphics (photos) would likely provide a better experience."
-			},
-			"tags": {
-				"technology": [
-					"JavaScript"
-				],
-				"education": [
-					"English for Academic Purposes",
-					"student engagement"
-				]
-			},
-			"icon": "Chronology",
-			"urls": {
-				"main": "https://chronology.glitch.me",
-				"repo": "https://glitch.com/edit/#!/chronology"
-			},
-			"color": "#E5E5E5"
-		},
-		{
-			"name": "Mixtape",
-			"date": "2021",
-			"tagline": "a mixtape creation interface for Apple Music",
-			"description": {
-				"background": "Modern music players like Apple Music allow you to create playlists, but it can be difficult to share them with others.",
-				"details": "This application uses the mixtape concept to add meta details to a playlist built from the Apple Music library. I challenged myself to limit the project to a frontend interface without any backend data storage. Instead, all details related to the mixtape are stored in query parameters. This delivers the fundamental functionality users expect without requiring registration.",
-				"reflection": "I enjoy playing and listening to music in my daily life, so this project is a labor of love. It is challenging to rely so much on a single external API, however. In fact, I decided to use a beta version of MusicKit JS as version 1 was unstable. The long term viability of this application entirely depends on Apple's vision."
-			},
-			"tags": {
-				"technology": [
-					"JavaScript",
-					"Node JS",
-					"Svelte"
-				],
-				"education": [
-					"writing instruction",
-					"student engagement"
-				]
-			},
-			"icon": "Mixtape",
-			"urls": {
-				"main": "https://mixtape-gamma.vercel.app/",
-				"repo": "https://github.com/thaddeusm/mixtape",
-				"figma": "https://www.figma.com/file/frBMRG5tSgvMtDmjt1ofSxps/Mixtape-Player"
-			},
-			"color": "#E5E5E5"
-		},
-		{
 			"name": "English Language Programs",
 			"date": "2025",
 			"tagline": "a marketing website powered by WordPress",
@@ -353,7 +16,8 @@
 					"Vue JS"
 				],
 				"education": [
-					"career readiness"
+					"career readiness",
+					"cultural exchange"
 				]
 			},
 			"icon": "ELP",
@@ -378,7 +42,8 @@
 				],
 				"education": [
 					"career readiness",
-					"active participation"
+					"active classroom participation",
+					"cultural exchange"
 				]
 			},
 			"icon": "ELP",
@@ -435,6 +100,336 @@
 				"repo": "https://github.com/thaddeusm/alt-text-generator"
 			},
 			"color": "#98F1F5"
+		},
+		{
+			"name": "Writing Toolkit",
+			"date": "2020",
+			"tagline": "a suite of digital English writing tools",
+			"description": {
+				"background": "Composition is often taught explicitly with learners actually completing writing steps independently.  This project embeds common advice in college composition classes implicitly, supporting learners as they write.",
+				"details": "Writing Toolkit is a web application designed to be mobile-first and performant around the globe.  English language learners are the primary target user, which requires the use of a global CDN and a stateless architecture as users are based around the world.  The application helps users manage writing as individual projects, with a variety of support strategies (style feedback, grammar checking, plagiarism detection, etc.) depending on the project template.",
+				"reflection": "The application is the most complete integration of my experiences as an English language instructor and my web development skillset."
+			},
+			"tags": {
+				"technology": [
+					"JavaScript",
+					"Node JS",
+					"Svelte"
+				],
+				"education": [
+					"writing instruction",
+					"English for Academic Purposes",
+					"test preparation",
+					"career readiness"
+				]
+			},
+			"icon": "WritingToolkit",
+			"urls": {
+				"main": "https://contenteditable.vercel.app/",
+				"figma": "https://www.figma.com/file/r2KId8V6ijnIXxXul4eqML/Writing-Process-App"
+			},
+			"color": "#D3DFEA"
+		},
+		{
+			"name": "Robomuse",
+			"date": "2020",
+			"tagline": "AI-powered vocabulary building",
+			"description": {
+				"background": "For English language learners in particular, the breadth of vocabulary expected in creative writing can be daunting. It is difficult to avoid overusing familiar words.",
+				"details": "Robomuse is a light user interface to access word association features from Datamuse, an AI-based service that offers English language word suggestions. Suggestions supported by Robomuse include rhyming words, adjectives, nouns, and single-word substitutions for phrases.",
+				"reflection": "While limited in terms of scope, the application can be used by native and non-native English language writers on a variety of device form factors."
+			},
+			"tags": {
+				"technology": [
+					"JavaScript",
+					"Node JS",
+					"Svelte"
+				],
+				"education": [
+					"writing instruction"
+				]
+			},
+			"icon": "Robomuse",
+			"urls": {
+				"main": "https://robomuse.vercel.app/",
+				"repo": "https://github.com/thaddeusm/robomuse",
+				"figma": "https://www.figma.com/file/dRDnmjhzwoHa1cMNsgFMtv/Robomuse"
+			},
+			"color": "#98F1F5"
+		},
+		{
+			"name": "IELTS Practice",
+			"date": "2019",
+			"tagline": "helps students prepare for the IELTS exam",
+			"description": {
+				"background": "The IELTS is an international English language exam widely used to assess a candidate's ability to use English in a business or academic environment. On the exam's speaking section, examinees are asked to prepare and deliver a short impromptu speech with specific time constraints.",
+				"details": "This mobile-first app combines several basic functionalities necessary for test preparation. First, the app provides a random prompt modeled after sample questions provided by the IELTS website. The app also integrates timer functionality in the form of a dynamically generated window border.",
+				"reflection": "When preparing for an exam, students often overlook time constraints, which are often the cause of text anxiety. By integrating this functionality, this solution is more effective than simply reviewing example test questions."
+			},
+			"tags": {
+				"technology": [
+					"JavaScript",
+					"Svelte"
+				],
+				"education": [
+					"English for Academic Purposes",
+					"test preparation",
+					"career readiness"
+				]
+			},
+			"icon": "IELTS",
+			"urls": {
+				"main": "https://ielts-cards.vercel.app/",
+				"repo": "https://github.com/thaddeusm/ielts-cards"
+			},
+			"color": "#E5E5E5"
+		},
+		{
+			"name": "Seatsmart",
+			"date": "2018-present",
+			"tagline": "adds transparency to classroom participation feedback",
+			"description": {
+				"background": "Seatsmart offers a convenient way to implement classroom participation guidance by the Department of English at Fort Hays State University for courses conducted at campuses in China. \nAt its core, Seatsmart is a simple implementation of instructor classroom management practices that are considered effective for courses conducted at FHSU satellite campuses in China. Paper-based seating charts with spaces for annotation have been in use for some time and are still the preferred choice for many faculty members. Seatsmart offers a digital alternative as a convenience, while striving to add features that are difficult to implement in analog (e.g. trend calculations, randomization, etc.). The choice of colors and typography is meant to fit the university context (adult learners).",
+				"details": "Internet connection stability is a serious concern for faculty. In addition, the application deals with student records related to participation, which should be stored securely. Seatsmart is designed to be offline-first, with all data stored on the user's machine. This storage is transparently located in the default OS documents folder, which is separate from application files. This allows the user to update (replace) the application without impacting partication records. \nWhen Internet access is available, instructors can use the Remote feature to access basic features from a mobile device. They can also engage with students in Activities for realtime formative assessments. Data is encrypted during transport and this information is not stored in any cloud database. This is powered by a realtime server on the backend. \nEvery attempt is made to ensure design and UX consistency for PC and Mac, the operating systems currently used by faculty. However, desktop (larger) screen sizes are given less priority as faculty are provided or rely upon laptop computers. An additional effort has been made to support OSX-specific APIs such as the touchbar, recognizing that faculty members who have chosen to purchase their own computers have sometimes selected more advanced Apple computers with this feature.",
+				"reflection": "As a standalone application, Seatsmart currently includes all planned functionality.  However, due to the public health crisis in China in 2020, face-to-face instruction has been interrupted, which puts this project on hold."
+			},
+			"tags": {
+				"technology": [
+					"JavaScript",
+					"Node JS",
+					"Vue JS",
+					"Electron JS"
+				],
+				"education": [
+					"classroom management",
+					"formative assessment",
+					"active classroom participation"
+				]
+			},
+			"icon": "Seatsmart",
+			"urls": {
+				"main": "https://seatsmart.vercel.app/",
+				"repo": "https://github.com/thaddeusm/seatsmart-FHSU",
+				"figma": "https://www.figma.com/file/OxI3WKOFswThYuEfOR6UaV7V/Seatsmart"
+			},
+			"color": "#FEE7A7"
+		},
+		{
+			"name": "TOEIC Photo",
+			"date": "2019",
+			"tagline": "helps students prepare for the TOEIC exam",
+			"description": {
+				"background": "The TOEIC is an international English language exam widely used to assess a candidate's ability to use English in a business environment. On the exam's speaking section, examinees are asked to describe a random photo, demonstrating their range and depth of vocabulary.",
+				"details": "This mobile-first app combines several basic functionalities necessary for test preparation. First, the app provides a random photo with subjects modeled after example provided by the ETS website. The app also integrates timer functionality. Further, the app includes a gamified version of the activity with a process similar to the parlor game Taboo.",
+				"reflection": "When preparing for an exam, students often overlook time constraints, which are often the cause of text anxiety. By integrating this functionality, this solution is more effective than simply reviewing example photos from the test website."
+			},
+			"tags": {
+				"technology": [
+					"JavaScript",
+					"Svelte"
+				],
+				"education": [
+					"English for Academic Purposes",
+					"test preparation",
+					"career readiness"
+				]
+			},
+			"icon": "TOEIC",
+			"urls": {
+				"main": "https://toeic-photo.vercel.app",
+				"repo": "https://github.com/thaddeusm/toeic-photo"
+			},
+			"color": "#E5E5E5"
+		},
+		{
+			"name": "Seatsmart Remote",
+			"date": "2018-present",
+			"tagline": "extends features of the Seatsmart app to mobile devices",
+			"description": {
+				"background": "This web-based remote UI communicates in realtime with the desktop application Seatsmart powered by Seatsmart Remote Server.",
+				"details": "When Internet access is available, instructors can use the Remote feature to access basic features from a mobile device. Data is encrypted during transport and this information is not stored in any cloud database. ",
+				"reflection": "This application demonstrates how progressive enhancements can serve the needs of many users without risking wider accessibility. While Seatsmart Remote will never replace the original desktop application, it has introduced interactions that have influenced other features, such as Seatsmart Activities."
+			},
+			"tags": {
+				"technology": [
+					"JavaScript",
+					"Vue JS",
+					"Socket.io"
+				],
+				"education": [
+					"classroom management",
+					"formative assessment",
+					"active classroom participation"
+				]
+			},
+			"icon": "Seatsmart",
+			"urls": {
+				"main": "https://seatsmart.vercel.app/",
+				"repo": "https://github.com/thaddeusm/seatsmart-remote"
+			},
+			"color": "#FEE7A7"
+		},
+		{
+			"name": "Gist",
+			"date": "2019",
+			"tagline": "gamifies avoiding plagiarism when writing summaries",
+			"description": {
+				"background": "This game was created with English language learners in mind, who often struggle to use language flexibly and understand standards of academic integrity in Anglophone academia.",
+				"details": "Gist is a text-based game that challenges a player to summarize a short text while avoiding common issues: plagiarism, reliance on close synonyms, and wordiness. As a serious game intended for older learners, Gist focuses on providing formative feedback to learners to encourage reflection and iteration. If successful, the game might help learners build an implicit understanding of academic integrity and best practices regarding paraphrasing.",
+				"reflection": "This project was my first serious attempt to apply basic computional linguistics strategies in order to analyze natural text input. Large portions of the server functions that support Gist have been reused in other projects. Therefore, the project was a true stepping stone to more complex applications."
+			},
+			"tags": {
+				"technology": [
+					"JavaScript",
+					"Node JS",
+					"Svelte"
+				],
+				"education": [
+					"writing instruction",
+					"English for Academic Purposes",
+					"test preparation",
+					"academic integrity"
+				]
+			},
+			"icon": "Gist",
+			"urls": {
+				"main": "https://gist-game.now.sh",
+				"repo": "https://github.com/thaddeusm/gist",
+				"figma": "https://www.figma.com/file/sM264mpij4f1y2r7w12kGD/Gist?node-id=0%3A1"
+			},
+			"color": "#FAEDB2"
+		},
+		{
+			"name": "Seatsmart Remote Server",
+			"date": "2018-present",
+			"tagline": "powers Seatsmart's realtime features",
+			"description": {
+				"background": "This realtime server powers remote functionality within the desktop application Seatsmart.",
+				"details": "When Internet access is available, instructors can use the Remote feature to access basic features from a mobile device. Students can also connect on their mobile devices for realtime activities. Data is encrypted during transport and this information is not stored in any cloud database.",
+				"reflection": "Seatsmart was originally planned as an offline application due to the perceived instability of Internet services in (mainland) China. After a tentative trial of realtime features using this server, the application quickly proved its reliability. After introducing remote functionality, colleagues began suggesting other realtime features to make their classroom more interactive. Since existing realtime services are blocked in China, Seatsmart has grown to fill in the gaps."
+			},
+			"tags": {
+				"technology": [
+					"Node JS",
+					"Socket.io"
+				],
+				"education": [
+					"classroom management",
+					"formative assessment"
+				]
+			},
+			"icon": "Seatsmart",
+			"urls": {
+				"main": "https://seatsmart.vercel.app/",
+				"repo": "https://github.com/thaddeusm/seatsmart-remote-server"
+			},
+			"color": "#FAEDB2"
+		},
+		{
+			"name": "Seatsmart Activities",
+			"date": "2019-present",
+			"tagline": "adds realtime formative assessment activities to Seatsmart",
+			"description": {
+				"background": "Existing popular realtime education services are blocked in China. This mobile-first web app allows students to connect with each other and their instructor on their personal devices.",
+				"details": "When Internet access is available, instructors can launch realtime formative assessment activities with their students. Data is encrypted during transport and this information is not stored in any cloud database.",
+				"reflection": "Since colleagues teach groups as large as 120 students, it can be difficult to foster meaningful interactions in the classroom. Simple activities such as surveys or resource sharing can be nearly impossible to do in analog, especially when anonymity is important. Instructors use Seatsmart Activities to make their class sessions more engaging and to gather feedback from students."
+			},
+			"tags": {
+				"technology": [
+					"JavaScript",
+					"Vue JS",
+					"Socket.io"
+				],
+				"education": [
+					"classroom management",
+					"formative assessment",
+					"active classroom participation"
+				]
+			},
+			"icon": "Activities",
+			"urls": {
+				"main": "https://seatsmart.vercel.app/",
+				"repo": "https://github.com/thaddeusm/seatsmart-activities"
+			},
+			"color": "#FEE7A7"
+		},
+		{
+			"name": "BEC Vantage Practice",
+			"date": "2019",
+			"tagline": "helps students prepare for an English language exam",
+			"description": {
+				"background": "The BEC Vantage is an international English language exam widely used to assess a candidate's ability to use English in a business environment. On the exam's speaking section, examinees are asked to collaborate with a stranger to discuss solutions to a common business problem.",
+				"details": "This mobile-first app combines several basic functionalities necessary for test preparation. First, the app provides a random collaboration prompt modeled after sample questions provided by Cambridge English. The app also integrates timer functionality in the form of a dynamically generated window border. Two or three students can work together around the same device.",
+				"reflection": "When preparing for an exam, students often overlook time constraints, which are often the cause of text anxiety. By integrating this functionality, this solution is more effective than simply reviewing example test questions."
+			},
+			"tags": {
+				"technology": [
+					"JavaScript",
+					"Svelte"
+				],
+				"education": [
+					"English for Academic Purposes",
+					"test preparation",
+					"career readiness"
+				]
+			},
+			"icon": "BEC",
+			"urls": {
+				"main": "https://bec-vantage-collaboration.vercel.app",
+				"repo": "https://github.com/thaddeusm/bec-vantage-collaboration"
+			},
+			"color": "#E5E5E5"
+		},
+		{
+			"name": "Chronology",
+			"date": "2018",
+			"tagline": "a timeline creator to support language acquisition",
+			"description": {
+				"background": "Many Indo-European languages include the concept of verb tenses to mark time. Acquiring these verb forms requires a much longer period of exposure to the language. This application helps a language learner understand chronologies as communicated in the target language.",
+				"details": "This application was created in the context of an Interaction Design course at the University of Missouri. It features a minimalistic interface to reduce distraction so that the users can continue to focus on what they hear. It was created in plain JavaScript in a MVC (OOP) pattern.",
+				"reflection": "Though it made sense to me at the time, the interface relies too heavily on ambiguous icons to communicate meaning. Though users would be able to negotiate for clearer understanding in the moment, the use of higher-fidelity graphics (photos) would likely provide a better experience."
+			},
+			"tags": {
+				"technology": [
+					"JavaScript"
+				],
+				"education": [
+					"English for Academic Purposes"
+				]
+			},
+			"icon": "Chronology",
+			"urls": {
+				"main": "https://chronology.glitch.me",
+				"repo": "https://glitch.com/edit/#!/chronology"
+			},
+			"color": "#E5E5E5"
+		},
+		{
+			"name": "Mixtape",
+			"date": "2021",
+			"tagline": "a mixtape creation interface for Apple Music",
+			"description": {
+				"background": "Modern music players like Apple Music allow you to create playlists, but it can be difficult to share them with others.",
+				"details": "This application uses the mixtape concept to add meta details to a playlist built from the Apple Music library. I challenged myself to limit the project to a frontend interface without any backend data storage. Instead, all details related to the mixtape are stored in query parameters. This delivers the fundamental functionality users expect without requiring registration.",
+				"reflection": "I enjoy playing and listening to music in my daily life, so this project is a labor of love. It is challenging to rely so much on a single external API, however. In fact, I decided to use a beta version of MusicKit JS as version 1 was unstable. The long term viability of this application entirely depends on Apple's vision."
+			},
+			"tags": {
+				"technology": [
+					"JavaScript",
+					"Node JS",
+					"Svelte"
+				],
+				"education": [
+					"writing instruction"
+				]
+			},
+			"icon": "Mixtape",
+			"urls": {
+				"main": "https://mixtape-gamma.vercel.app/",
+				"repo": "https://github.com/thaddeusm/mixtape",
+				"figma": "https://www.figma.com/file/frBMRG5tSgvMtDmjt1ofSxps/Mixtape-Player"
+			},
+			"color": "#E5E5E5"
 		}
 	]
 }
