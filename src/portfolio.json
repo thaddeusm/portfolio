@@ -381,30 +381,6 @@
 			"color": "#E5E5E5"
 		},
 		{
-			"name": "Chronology",
-			"date": "2018",
-			"tagline": "a timeline creator to support language acquisition",
-			"description": {
-				"background": "Many Indo-European languages include the concept of verb tenses to mark time. Acquiring these verb forms requires a much longer period of exposure to the language. This application helps a language learner understand chronologies as communicated in the target language.",
-				"details": "This application was created in the context of an Interaction Design course at the University of Missouri. It features a minimalistic interface to reduce distraction so that the users can continue to focus on what they hear. It was created in plain JavaScript in a MVC (OOP) pattern.",
-				"reflection": "Though it made sense to me at the time, the interface relies too heavily on ambiguous icons to communicate meaning. Though users would be able to negotiate for clearer understanding in the moment, the use of higher-fidelity graphics (photos) would likely provide a better experience."
-			},
-			"tags": {
-				"technology": [
-					"JavaScript"
-				],
-				"education": [
-					"English for Academic Purposes"
-				]
-			},
-			"icon": "Chronology",
-			"urls": {
-				"main": "https://chronology.glitch.me",
-				"repo": "https://glitch.com/edit/#!/chronology"
-			},
-			"color": "#E5E5E5"
-		},
-		{
 			"name": "Mixtape",
 			"date": "2021",
 			"tagline": "a mixtape creation interface for Apple Music",

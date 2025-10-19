@@ -1,4 +1,5 @@
 <script>
+	import { onMount } from 'svelte';
 	import { push } from 'svelte-spa-router';
 
 	import Seatsmart from './../icons/Seatsmart.svelte';
@@ -9,14 +10,29 @@
 	import BEC from './../icons/BEC.svelte';
 	import IELTS from './../icons/IELTS.svelte';
 	import TOEIC from './../icons/TOEIC.svelte';
-	import Chronology from './../icons/Chronology.svelte';
 	import Robomuse from './../icons/Robomuse.svelte';
 	import Mixtape from './../icons/Mixtape.svelte';
 	import ELP from './../icons/ELP.svelte';
 
+	const components = {
+		'Seatsmart': Seatsmart,
+		'WritingToolkit': WritingToolkit,
+		'MU': MU,
+		'Gist': Gist,
+		'Activities': Activities,
+		'BEC': BEC,
+		'IELTS': IELTS,
+		'TOEIC': TOEIC,
+		'Robomuse': Robomuse,
+		'Mixtape': Mixtape,
+		'ELP': ELP,
+	};
+
 	export let project;
 	export let category = null;
 	export let large = false;
+
+  	export let component = components[project.icon];
 
 	$: backgroundColor = `background: ${project.color}`;
 </script>
@@ -106,33 +122,9 @@
 
 {#if large}
 	<div class="large-container" style={backgroundColor}>
-		{#if project.icon !== ''}
+		{#if component}
 			<div class="icon-area">
-				{#if project.icon == "Seatsmart"}
-					<Seatsmart width={'5.5rem'} height={'5.5rem'} />
-				{:else if project.icon == "WritingToolkit"}
-					<WritingToolkit width={'5.5rem'} height={'5.5rem'} />
-				{:else if project.icon == "MU"}
-					<MU width={'5.5rem'} height={'5.5rem'} />
-				{:else if project.icon == "Gist"}
-					<Gist width={'5.5rem'} height={'5.5rem'} />
-				{:else if project.icon == "Activities"}
-					<Activities width={'5.5rem'} height={'5.5rem'} />
-				{:else if project.icon == "BEC"}
-					<BEC width={'5.5rem'} height={'5.5rem'} />
-				{:else if project.icon == "IELTS"}
-					<IELTS width={'5.5rem'} height={'5.5rem'} />
-				{:else if project.icon == "TOEIC"}
-					<TOEIC width={'5.5rem'} height={'5.5rem'} />
-				{:else if project.icon == "Chronology"}
-					<Chronology width={'5.5rem'} height={'5.5rem'} />
-				{:else if project.icon == "Robomuse"}
-					<Robomuse width={'5.5rem'} height={'5.5rem'} />
-				{:else if project.icon == "Mixtape"}
-					<Mixtape width={'5.5rem'} height={'5.5rem'} />
-				{:else if project.icon == "ELP"}
-					<ELP width={'5.5rem'} height={'5.5rem'} />
-				{/if}
+				<svelte:component this={component} width={'5.5rem'} height={'5.5rem'} />
 			</div>
 		{/if}
 		<div class="detail-area">
@@ -158,33 +150,9 @@
 	</div>
 {:else}
 	<div class="container">
-		{#if project.icon !== ''}
+		{#if component}
 			<div class="icon-area">
-				{#if project.icon == "Seatsmart"}
-					<Seatsmart width={'5.5rem'} height={'5.5rem'} />
-				{:else if project.icon == "WritingToolkit"}
-					<WritingToolkit width={'5.5rem'} height={'5.5rem'} />
-				{:else if project.icon == "MU"}
-					<MU width={'5.5rem'} height={'5.5rem'} />
-				{:else if project.icon == "Gist"}
-					<Gist width={'5.5rem'} height={'5.5rem'} />
-				{:else if project.icon == "Activities"}
-					<Activities width={'5.5rem'} height={'5.5rem'} />
-				{:else if project.icon == "BEC"}
-					<BEC width={'5.5rem'} height={'5.5rem'} />
-				{:else if project.icon == "IELTS"}
-					<IELTS width={'5.5rem'} height={'5.5rem'} />
-				{:else if project.icon == "TOEIC"}
-					<TOEIC width={'5.5rem'} height={'5.5rem'} />
-				{:else if project.icon == "Chronology"}
-					<Chronology width={'5.5rem'} height={'5.5rem'} />
-				{:else if project.icon == "Robomuse"}
-					<Robomuse width={'5.5rem'} height={'5.5rem'} />
-				{:else if project.icon == "Mixtape"}
-					<Mixtape width={'5.5rem'} height={'5.5rem'} />
-				{:else if project.icon == "ELP"}
-					<ELP width={'5.5rem'} height={'5.5rem'} />
-				{/if}
+				<svelte:component this={component} width={'5.5rem'} height={'5.5rem'} />
 			</div>
 		{/if}
 		<div class="tagline-area">
